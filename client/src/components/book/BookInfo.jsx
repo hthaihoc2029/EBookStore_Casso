@@ -483,231 +483,8 @@ const BookInfo = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="course-list-section">
-                      <div className="course-single-title">
-                        <h3>Đối tượng của lớp học là ai?</h3>
-                      </div>
-                      <ul>
-                        <li>
-                          <svg
-                            width={24}
-                            height={24}
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M3.75 12H20.25"
-                              stroke="#FF6636"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                            <path
-                              d="M13.5 5.25L20.25 12L13.5 18.75"
-                              stroke="#FF6636"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                          </svg>
-                          This course is for those who want to launch a
-                          Freelance Web Design career.
-                        </li>
-                        <li>
-                          <svg
-                            width={24}
-                            height={24}
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M3.75 12H20.25"
-                              stroke="#FF6636"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                            <path
-                              d="M13.5 5.25L20.25 12L13.5 18.75"
-                              stroke="#FF6636"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                          </svg>
-                          Praesent eget consequat elit. Duis a pretium purus.
-                        </li>
-                        <li>
-                          <svg
-                            width={24}
-                            height={24}
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M3.75 12H20.25"
-                              stroke="#FF6636"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                            <path
-                              d="M13.5 5.25L20.25 12L13.5 18.75"
-                              stroke="#FF6636"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                          </svg>
-                          Sed sagittis suscipit condimentum pellentesque
-                          vulputate feugiat libero nec accumsan.
-                        </li>
-                        <li>
-                          <svg
-                            width={24}
-                            height={24}
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M3.75 12H20.25"
-                              stroke="#FF6636"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                            <path
-                              d="M13.5 5.25L20.25 12L13.5 18.75"
-                              stroke="#FF6636"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                          </svg>
-                          Sed nec dapibus orci integer nisl turpis, eleifend sit
-                          amet aliquam vel, lacinia quis ex.
-                        </li>
-                        <li>
-                          <svg
-                            width={24}
-                            height={24}
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M3.75 12H20.25"
-                              stroke="#FF6636"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                            <path
-                              d="M13.5 5.25L20.25 12L13.5 18.75"
-                              stroke="#FF6636"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                          </svg>
-                          Those who are looking to reboot their work life and
-                          try a new profession that is fun, rewarding and highly
-                          in-demand.
-                        </li>
-                        <li>
-                          <svg
-                            width={24}
-                            height={24}
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M3.75 12H20.25"
-                              stroke="#FF6636"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                            <path
-                              d="M13.5 5.25L20.25 12L13.5 18.75"
-                              stroke="#FF6636"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                          </svg>
-                          Nunc auctor consequat lorem, in posuere enim hendrerit
-                          sed.
-                        </li>
-                        <li>
-                          <svg
-                            width={24}
-                            height={24}
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M3.75 12H20.25"
-                              stroke="#FF6636"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                            <path
-                              d="M13.5 5.25L20.25 12L13.5 18.75"
-                              stroke="#FF6636"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                          </svg>
-                          Duis ornare enim ullamcorper congue consectetur
-                          suspendisse interdum tristique est sed molestie.
-                        </li>
-                      </ul>
-                    </div>
                   </div>
-                  <div className="course-list-section course-requirements">
-                    <div className="course-single-title">
-                      <h3>Yêu cầu</h3>
-                    </div>
-                    <ul>
-                      <li>
-                        Nunc auctor consequat lorem, in posuere enim hendrerit
-                        sed.
-                      </li>
-                      <li>
-                        Sed sagittis suscipit condimentum pellentesque vulputate
-                        feugiat libero nec accumsan.
-                      </li>
-                      <li>
-                        Duis ornare enim ullamcorper congue consectetur
-                        suspendisse interdum tristique est sed molestie.
-                      </li>
-                      <li>
-                        Those who are looking to reboot their work life and try
-                        a new profession that is fun, rewarding and highly
-                        in-demand.
-                      </li>
-                      <li>
-                        Praesent eget consequat elit. Duis a pretium purus.
-                      </li>
-                      <li>
-                        Sed nec dapibus orci integer nisl turpis, eleifend sit
-                        amet aliquam vel, lacinia quis ex.
-                      </li>
-                      <li>
-                        This course is for those who want to launch a Freelance
-                        Web Design career.
-                      </li>
-                    </ul>
-                  </div>
+
                   <div id="curriculum" className="course-curriculum-section">
                     <div className="course-single-title">
                       <h3>Mục lục</h3>
@@ -868,35 +645,8 @@ const BookInfo = () => {
                                     strokeLinejoin="round"
                                   />
                                 </svg>
-                                <span>430,117</span>
-                                students
-                              </li>
-                              <li>
-                                <svg
-                                  width={24}
-                                  height={24}
-                                  viewBox="0 0 24 24"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
-                                    fill="#FF6636"
-                                    stroke="#FF6636"
-                                    strokeWidth="1.5"
-                                    strokeMiterlimit={10}
-                                  />
-                                  <path
-                                    d="M15 12L10.5 9V15L15 12Z"
-                                    fill="white"
-                                    stroke="white"
-                                    strokeWidth="1.5"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                                <span>7</span>
-                                courses
+                                <span>55</span>
+                                tuổi
                               </li>
                             </ul>
                           </div>
@@ -921,7 +671,7 @@ const BookInfo = () => {
                         </div>
                         <div className="profile-data">
                           <h3>{info.second_teacher}</h3>
-                          <p>Trợ giảng</p>
+                          <p>Nhà văn, Doanh nhân</p>
                           <div className="profile-review">
                             <ul>
                               <li>
@@ -938,7 +688,7 @@ const BookInfo = () => {
                                   />
                                 </svg>
                                 <span>4.8</span>
-                                (134,633 review)
+                                (1,633 review)
                               </li>
                               <li>
                                 <svg
@@ -976,44 +726,19 @@ const BookInfo = () => {
                                     strokeLinejoin="round"
                                   />
                                 </svg>
-                                <span>430,117</span>
-                                students
-                              </li>
-                              <li>
-                                <svg
-                                  width={24}
-                                  height={24}
-                                  viewBox="0 0 24 24"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
-                                    fill="#FF6636"
-                                    stroke="#FF6636"
-                                    strokeWidth="1.5"
-                                    strokeMiterlimit={10}
-                                  />
-                                  <path
-                                    d="M15 12L10.5 9V15L15 12Z"
-                                    fill="white"
-                                    stroke="white"
-                                    strokeWidth="1.5"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                                <span>7</span>
-                                courses
+                                <span>57</span>
+                                tuổi
                               </li>
                             </ul>
                           </div>
                           <p>
-                            One day Vako had enough with the 9-to-5 grind, or
-                            more like 9-to-9 in his case, and quit his job, or
-                            more like got himself fired from his own startup. He
-                            decided to work on his dream: be his own boss,
-                            travel the world, only do the work he enjoyed...a{" "}
+                            Đồng sáng lập công ty Salvetti & Llombart, với 40
+                            cộng sự hàng đầu ở Barcelona, Tây Ban Nha - chuyên
+                            nghiên cứu thị trường, tư vấn cho các tập đoàn đa
+                            quốc gia khổng lồ. Alex Rovira là tác giả cuốn The
+                            Inner Compass và Fernando Trías de Bes là đồng tác
+                            giả cuốn Lateral Marketing với chuyên gia tiếp thị
+                            hàng đầu thế giới - Tiến sĩ Philip Kotler ...{" "}
                             <a href="#">READ MORE</a>
                           </p>
                         </div>

@@ -105,8 +105,8 @@ const TutorSection = () => {
                             <img src={item.imgSrc} alt="" />
                           </a>
                           <div className="course-item-data">
-                            <h5>{item.name}</h5>
-                            <p>{item.role}</p>
+                            <h5>Bí Mật Của May Mắn</h5>
+                            <p>Self-Help EBook</p>
                           </div>
                           <div className="course-item-5-card-footer">
                             <p className="course-item-5-card-footer-review align-self-center">
@@ -125,7 +125,7 @@ const TutorSection = () => {
                               5.0
                             </p>
                             <p className="course-item-5-card-footer-student">
-                              <span>Bách Khoa</span>
+                              <span>NXB Tổng Hợp TP.HCM</span>
                             </p>
                           </div>
                         </div>
