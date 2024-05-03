@@ -1,26 +1,28 @@
 import React from "react";
 import Header from "../header/Header";
-const CourseProfile = () => {
+const BookInfo = () => {
   const info = {
-    name: "Khám phá toán tư duy Soroban cho học sinh tiểu học",
+    name: "Bí mật của may mắn",
     title:
-      "Học cách áp dụng phương pháp Soroban trong giải quyết bài toán, phát triển kỹ năng toán học và rèn luyện tư duy logic cho học sinh tiểu học.",
-    teacher: "Phạm Thế Hiểu",
+      "Cuốn sách đem đến cho con người những thông điệp tích cực cho cuộc sống, nuôi dưỡng tâm hồn trong sáng, thuần khiết",
+    teacher: "Alex Rovira",
     price: "1.200.000 VND",
     priceBefore: "2.000.000 VND",
     discount: "40%",
     imgTeacher1:
-      "https://media.licdn.com/dms/image/D5603AQHrkBt0FZTR3w/profile-displayphoto-shrink_800_800/0/1683948337409?e=2147483647&v=beta&t=LnHIOp5P29MrmdCMgKqBHf5mURxlBoGfa232zy5bn7I",
+      "https://www.speakersassociates.com/wp-content/uploads/2021/12/Alex-Rovira-e1630488290796.jpg",
     imgTeacher2:
-      "https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/277354963_678836309986422_7620062949241528348_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KE8a6gHmr04Q7kNvgERbTjU&_nc_ht=scontent-hkg1-2.xx&oh=00_AfD-fv8-hzKmd-On4Lsm4AccqCs1tJlq7psMNrtJtlZu7Q&oe=66380607",
-    second_teacher: "Hoàng Đức Nguyên",
-    desc: ` Khóa học 'Khám phá toán tư duy Soroban cho học sinh tiểu học' là một chương trình học hấp dẫn và thú vị giúp các em học sinh tiểu học khám phá và phát triển kỹ năng toán tư duy thông qua phương pháp Soroban - một phương pháp giáo dục toán học phổ biến được áp dụng rộng rãi trên thế giới. 
-    
-    Trong khóa học này, các em sẽ được học cách tiếp cận toán học một cách sáng tạo và thú vị thông qua các bài tập và trò chơi dựa trên Soroban. Chương trình giảng dạy được thiết kế một cách đơn giản và dễ hiểu, phù hợp với độ tuổi và trình độ của học sinh tiểu học.
-    
-    Các em sẽ được hướng dẫn cách áp dụng toán học vào cuộc sống hàng ngày thông qua các bài toán thực tế và các tình huống giải quyết vấn đề. Không chỉ giúp các em nắm vững kiến thức toán học cơ bản mà còn phát triển kỹ năng tư duy logic, khả năng tư duy linh hoạt và sáng tạo. 
-    
-    Với khóa học này, mục tiêu không chỉ là giúp học sinh tiểu học có kiến thức toán học vững chắc mà còn là tạo ra một môi trường học tập tích cực và thú vị, khơi dậy niềm đam mê và sự hứng thú trong việc học toán.`,
+      "https://nuevasformasdetrabajar.es/wp-content/uploads/2021/07/expertos_fernando-trias-de-bes.jpg",
+    second_teacher: "Fernando Trías de Bes",
+    desc: `     Good Luck - Bí mật của May mắn - là cuốn sách nổi tiếng và độc đáo nhất được Nhà xuất bản Jossey-Bass xuất bản ngày 1/9/2004. Theo các công ty bản quyền châu Âu, Good Luck là cuốn sách đầu tiên trong lịch sử hiện đại bán được bản quyền dịch ra 15 ngôn ngữ trên thế giới trước khi được xuất bản ở bất kỳ quốc gia nào (chỉ được truyền miệng và qua Internet). Cuốn sách được xuất bản đầu tiên ở Tây Ban Nha vào tháng 2/2004. Chỉ trong vòng hai tuần, Good Luck đã vượt lên dẫn đầu danh sách những cuốn sách bán chạy nhất ở Tây Ban Nha, Nhật Bản, Brazil, Mỹ. Hàn Quốc, Đài Loan và đang lan tỏa nhanh chóng sang các quốc gia, châu lục khác những tháng đầu năm 2005. 
+
+    Câu chuyện trong Bí mật của May mắn hấp dẫn như câu chuyện thần thoại với những chân lý thực tế và vĩnh hằng của cuộc sống, mang lại cho người đọc, niềm tin, hy vọng, những trải nghiệm quý báu, đồng thời lý giải tại sao một số người luôn gặp được may mắn trong khi những người khác lại không gặp. Cuốn sách đã mang đến cho độc giả một cái nhìn thú vị và sâu sắc về thay đổi những điều kiện cần thiết để tạo ra và duy trì sự may mắn trong cuộc đời chúng ta. Độc giả khắp mọi nơi đã chú tâm thưởng thức, chuyền tay cho bè bạn và mỗi người đều mua nhiều bản để tặng cho gia đình, người thân, đồng nghiệp như những món quà đặc biệt của sự may mắn.
+
+   Good Luck là một câu chuyện lạ thường hướng đến một bài học vô cùng giá trị về cuộc sống: Sự may mắn không xuất hiện ngẫu nhiên trong hành trình cuộc sống chúng ta; chính chúng ta phải tìm và tạo ra những điều kiện để may mắn tìm đên với mình. Dưới ngòi bút của Alex Rovira và Fernando Trías de Bes - hai nhà tư vấn tâm lý và tiếp thị hàng đầu thế giới đã có công trình nghiêm cứu về thái độ, hành vi con người cũng như ước mong, niềm tin của họ đối với sự may mắn, thành công trong cuộc sống, câu chuyện giản dị này có thể được áp dụng rất rộng rãi cho tất cả mọi người và có khả năng khích lệ một cách độc đáo.
+
+   Bí Mật của May Mắn kể về một câu chuyện đầy cảm động giữa hai ông già, Max và Jim, khi họ tình cờ gặp nhau ở công viên trong tâm sau 50 năm xa cách. Trong khi Max đạt được những thành công và hạnh phúc tràn đầy trong cuộc đời từ sự khởi đầu vô cùng khó khăn, từ hai bàn tay trắng, thì Jim lại không thể làm được điều đó, lúc khởi đầu ông đã được cuộc sống ưu đãi rất nhiều.
+
+    Bí quyết thành công và may mắn của Max nằm ở câu chuyện kỳ diệu mà người ông đã kể lại cho Max từ nhiều năm trước. Câu chuyện đó thật kỳ bí và có sắc thái gợi nhớ đến những nhà giả kim, hiền triết xa xưa, chỉ ra bí mật, cách nắm bắt các cơ hội và gặt hái may mắn, thành công. Trong đoạn kết đầy bất ngờ, Good Luck tạo ra một chu trình khép kín, mang lại sự khích lệ, những hướng dẫn cách thực hiện và thật trọn vẹn với một câu chuyện đầy cuốn hút. Đây thực sự là một món quà đặc biệt, thú vị và đầy cảm hứng mà Alex Rovira và Fernando Trías de Bes đã mang đến cho chúng ta.`,
     feedback: [
       {
         name: "Nguyển Văn An ",
@@ -28,8 +30,7 @@ const CourseProfile = () => {
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQltYLVwTw1kABjUAdyoTJC6jXOWLGqrSOFNAZI9vug8Q&s",
         rating: 4,
         date: "1 tuần trước",
-        comment:
-          "Tôi đánh giá cao các video ngắn gọn và chính xác (mỗi video dưới 10 phút) vì video quá dài thường làm tôi mất tập trung. Giảng viên rất am hiểu về Thiết kế Web và điều đó hiển thị qua cách ông chia sẻ kiến thức của mình. Đây là 6 tháng học tốt nhất của tôi. Cảm ơn, Vako.",
+        comment: `Mặc dù có thể có những người đọc không tin vào sức mạnh của phong thủy và tâm linh, nhưng "Sách Bí Mật của May Mắn" vẫn đáng để đọc bởi vì nó cung cấp những phương tiện cần thiết để đạt được một tinh thần lạc quan và sự thịnh vượng trong cuộc sống. Đây là một cuốn sách đầy ý nghĩa và sẽ mang lại giá trị cho bất kỳ ai tìm kiếm sự thay đổi tích cực trong cuộc sống của mình.`,
       },
       {
         name: "Trần Văn Bình",
@@ -38,7 +39,7 @@ const CourseProfile = () => {
         rating: 4,
         date: "2 ngày trước",
         comment:
-          "Khóa học TUYỆT VỜI! Giảng viên mô tả rất chi tiết và chuyên nghiệp. Tôi học được RẤT NHIỀU điều sẽ áp dụng ngay vào công việc thực tế. Cảm ơn rất nhiều, không thể đợi để tham gia khóa học tiếp theo!",
+          "Một cuốn sách tuyệt vời mang lại cho độc giả sự cảm hứng và khích lệ trong cuộc sống hàng ngày. Tác giả đã trình bày những bí quyết và phương pháp thực hành để thu hút may mắn và thành công, giúp độc giả tạo ra một tâm trạng tích cực và tư duy lạc quan.",
       },
       {
         name: "Thảo Thi",
@@ -47,14 +48,37 @@ const CourseProfile = () => {
           "https://i.pinimg.com/736x/3a/74/5d/3a745d3dcba72feb73e44e399ec97bea.jpg",
         date: "1 tuần trước",
         comment:
-          "Đây nên là một trong những khóa học tốt nhất mà tôi từng tham gia. Rất khuyến nghị cho những người mới bắt đầu !",
+          "Cuốn sách này không chỉ giới thiệu các nguyên tắc cơ bản của phong thủy và tâm linh mà còn kết hợp với các câu chuyện thành công và bí mật của những người thành đạt, tạo nên một trải nghiệm đọc sách hấp dẫn và thú vị",
       },
     ],
   };
 
-  const descParagraphs = info.desc
-    .split("\n")
-    .map((line, index) => <p key={index}>{line}</p>);
+  const bookChapter = [
+    "Phần 1: Cuộc gặp gỡ kỳ lạ sau bao năm tháng",
+    "Phần 2: Huyền thoại Cây Bốn Lá thần kỳ",
+    "Bí mật đầu tiên: Hãy tạo ra những may mắn cho mình",
+    "Bí mật thứ hai: Biết theo đuổi may mắn",
+    "Bí mật thứ ba: Dám thay đổi để tạo điều kiện tốt hơn",
+    "Bí mật thứ tư: Biết chia sẽ, giúp đỡ người khác",
+    "Bí mật thứ năm: Đừng trì hoãn-Hãy hành động ngay",
+    "Bí mật thứ sáu: Biết tìm kiếm, để ý những điều nhỏ nhưng cần thiết",
+    "Bí mật thứ bảy: Hãy dám tin vào điều bạn đã tạo ra",
+    "Bí mật thứ tám: May mắn không thể mau bán được",
+    "Bí mật thứ chín: Hãy giữ niềm tin",
+    "Bí mật thứ mười: Ai cũng có thể gặp may mắn",
+    "Bí mật thứ mười một: Cội nguồn của sự may mắn",
+    "Bí mật thứ mười hai: Không bao giờ là quá trễ",
+  ];
+
+  const descParagraphs = info.desc.split("\n").map((line, index) =>
+    index == 0 ? (
+      <p key={index}>
+        <b>{line}</b>
+      </p>
+    ) : (
+      <p key={index}>{line}</p>
+    )
+  );
   return (
     <>
       <Header />
@@ -88,7 +112,7 @@ const CourseProfile = () => {
                       </li>
                       <li>
                         <a href="#">
-                          Tiểu học
+                          EBook
                           <svg
                             width={7}
                             height={10}
@@ -108,7 +132,7 @@ const CourseProfile = () => {
                       </li>
                       <li>
                         <a href="#">
-                          Toán
+                          Self-help EBook
                           <svg
                             width={7}
                             height={10}
@@ -127,11 +151,13 @@ const CourseProfile = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">Tư duy Soroban</a>
+                        <a href="#">Bí mật của may mắn</a>
                       </li>
                     </ul>
                     <a href="#">
-                      <h3>{info.name}</h3>
+                      <h3 style={{ fontSize: 50, color: "#15AB64" }}>
+                        {info.name}
+                      </h3>
                     </a>
                     <p>{info.title}</p>
                     <div className="withdrew-money-card-mid">
@@ -146,7 +172,7 @@ const CourseProfile = () => {
                           <img src={info.imgTeacher1} alt="" />
                         </a>
                         <div>
-                          <h5>Created by:</h5>
+                          <h5>Tác giả:</h5>
                           <a
                             className="withdrew-money-card-profile-name"
                             href="#"
@@ -234,32 +260,17 @@ const CourseProfile = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="course-singe-main">
+                  <div className="course-singe-main d-flex justify-content-center">
                     <div
                       className="course-video-wrap"
                       style={{
+                        alignSelf: "center",
+                        width: "300px",
+                        height: "483px",
                         backgroundImage:
-                          "url(https://r73troypb4obj.vcdn.cloud/website02/uploads/images/6232c6661a1b854d4e90248d/_______toan-tu-duy-soroban.jpg)",
+                          "url(https://images.thuvienpdf.com/003/lBk89DqRZf.webp)",
                       }}
-                    >
-                      <a
-                        className="popup-youtube"
-                        href="https://www.youtube.com/watch?v=GL0rbxB9Lqg&t=123s"
-                      >
-                        <svg
-                          width={16}
-                          height={18}
-                          viewBox="0 0 16 18"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M15.3889 8.35995L1.8911 0.111021C1.77741 0.0415409 1.64726 0.00360271 1.51404 0.00110806C1.38083 -0.00138659 1.24935 0.0316526 1.13314 0.0968271C1.01692 0.162002 0.920173 0.256958 0.852834 0.371929C0.785495 0.486901 0.75 0.617736 0.75 0.750976V17.2488C0.75 17.3821 0.785495 17.5129 0.852834 17.6279C0.920173 17.7429 1.01692 17.8378 1.13314 17.903C1.24935 17.9682 1.38083 18.0012 1.51404 17.9987C1.64726 17.9962 1.77741 17.9583 1.8911 17.8888L15.3889 9.63986C15.4985 9.57287 15.5891 9.47883 15.652 9.36677C15.7148 9.25471 15.7478 9.12839 15.7478 8.99991C15.7478 8.87143 15.7148 8.74511 15.652 8.63305C15.5891 8.52099 15.4985 8.42695 15.3889 8.35995Z"
-                            fill="#FF6636"
-                          />
-                        </svg>
-                      </a>
-                    </div>
+                    ></div>
                   </div>
                   <div className="student-profile-menu single-course">
                     <ul>
@@ -288,7 +299,7 @@ const CourseProfile = () => {
                     </div>
                     <div className="course-learn-section">
                       <div className="course-single-title">
-                        <h3>Bạn sẽ được học gì?</h3>
+                        <h3>Lợi ích khi mua sách điện tử?</h3>
                       </div>
                       <div className="row">
                         <div className="col-lg-6">
@@ -318,9 +329,10 @@ const CourseProfile = () => {
                                     strokeLinejoin="round"
                                   />
                                 </svg>
-                                You will learn how to design beautiful websites
-                                using Figma, an interface design tool used by
-                                designers at Uber, Airbnb and Microsoft.
+                                Ebook có thể được lưu trữ trên các thiết bị điện
+                                tử như điện thoại thông minh, máy tính bảng hoặc
+                                máy đọc sách điện tử, giúp bạn dễ dàng mang theo
+                                bên mình mọi lúc mọi nơi.
                               </li>
                               <li>
                                 <svg
@@ -346,9 +358,8 @@ const CourseProfile = () => {
                                     strokeLinejoin="round"
                                   />
                                 </svg>
-                                You will learn secret tips of Freelance Web
-                                Designers and how they make great money
-                                freelancing online.
+                                Với ebook, bạn có thể dễ dàng tìm kiếm các từ
+                                khóa, cụm từ hoặc trích dẫn cụ thể.
                               </li>
                               <li>
                                 <svg
@@ -374,8 +385,9 @@ const CourseProfile = () => {
                                     strokeLinejoin="round"
                                   />
                                 </svg>
-                                Understand how to use both the Jupyter Notebook
-                                and create .py files
+                                Tiết kiệm chi phí: Ebook thường rẻ hơn sách in,
+                                có thể tìm thấy nhiều ebook miễn phí hoặc giá rẻ
+                                trực tuyến.
                               </li>
                             </ul>
                           </div>
@@ -407,10 +419,10 @@ const CourseProfile = () => {
                                     strokeLinejoin="round"
                                   />
                                 </svg>
-                                You will learn how to take your designs and
-                                build them into powerful websites using Webflow,
-                                a state of the art site builder used by teams at
-                                Dell, NASA and more.
+                                Có thể tùy chỉnh: Hầu hết các trình đọc ebook
+                                đều cho phép bạn điều chỉnh phông chữ, kích
+                                thước chữ, khoảng cách dòng và độ sáng màn hình
+                                để có trải nghiệm đọc thoải mái nhất.
                               </li>
                               <li>
                                 <svg
@@ -436,8 +448,8 @@ const CourseProfile = () => {
                                     strokeLinejoin="round"
                                   />
                                 </svg>
-                                Learn to use Python professionally, learning
-                                both Python 2 and Python 3!
+                                Tiết kiệm không gian và giúp bạn dễ dàng sắp xếp
+                                bộ sưu tập sách của mình.
                               </li>
                               <li>
                                 <svg
@@ -463,8 +475,8 @@ const CourseProfile = () => {
                                     strokeLinejoin="round"
                                   />
                                 </svg>
-                                Get an understanding of how to create GUIs in
-                                the Jupyter Notebook system!
+                                Ebook không yêu cầu sử dụng giấy, giúp bảo vệ
+                                môi trường.
                               </li>
                             </ul>
                           </div>
@@ -698,7 +710,7 @@ const CourseProfile = () => {
                   </div>
                   <div id="curriculum" className="course-curriculum-section">
                     <div className="course-single-title">
-                      <h3>Chương trình học</h3>
+                      <h3>Mục lục</h3>
                       <div className="sub-heading-meta">
                         <ul>
                           <li>
@@ -724,7 +736,7 @@ const CourseProfile = () => {
                                 strokeLinejoin="round"
                               />
                             </svg>
-                            6 Sections
+                            2 Phần
                           </li>
                           <li>
                             <svg
@@ -748,31 +760,7 @@ const CourseProfile = () => {
                                 strokeLinejoin="round"
                               />
                             </svg>
-                            52 lectures
-                          </li>
-                          <li>
-                            <svg
-                              width={20}
-                              height={20}
-                              viewBox="0 0 20 20"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z"
-                                stroke="#FD8E1F"
-                                strokeWidth="1.3"
-                                strokeMiterlimit={10}
-                              />
-                              <path
-                                d="M10 5.625V10H14.375"
-                                stroke="#FD8E1F"
-                                strokeWidth="1.3"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                            5m 49m
+                            12 Bí mật
                           </li>
                         </ul>
                       </div>
@@ -781,1130 +769,39 @@ const CourseProfile = () => {
                       className="accordion-wrap-faq lecture-wrap"
                       id="faq_init3"
                     >
-                      <div className="accordion__list2 open">
-                        <div className="link">
-                          <div className="accordion-header-content">
-                            <svg
-                              width={14}
-                              height={8}
-                              viewBox="0 0 14 8"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M12.8332 1.08333L6.99984 6.91667L1.1665 1.08333"
-                                stroke="#6E7485"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                            Getting Started
-                          </div>
-                          <div className="sub-heading-meta">
-                            <ul>
-                              <li>
-                                <svg
-                                  width={20}
-                                  height={20}
-                                  viewBox="0 0 20 20"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z"
-                                    stroke="#564FFD"
-                                    strokeWidth="1.3"
-                                    strokeMiterlimit={10}
-                                  />
-                                  <path
-                                    d="M12.5 10L8.75 7.5V12.5L12.5 10Z"
-                                    stroke="#564FFD"
-                                    strokeWidth="1.3"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                                52 lectures
-                              </li>
-                              <li>
-                                <svg
-                                  width={20}
-                                  height={20}
-                                  viewBox="0 0 20 20"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z"
-                                    stroke="#FD8E1F"
-                                    strokeWidth="1.3"
-                                    strokeMiterlimit={10}
-                                  />
-                                  <path
-                                    d="M10 5.625V10H14.375"
-                                    stroke="#FD8E1F"
-                                    strokeWidth="1.3"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                                5m 49m
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div
-                          className="accordion-body-text"
-                          style={{ display: "block" }}
-                        >
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              Giới thiệu về Soroban
+                      {bookChapter &&
+                        bookChapter.length > 0 &&
+                        bookChapter.map((item, index) => {
+                          return (
+                            <div className="accordion__list2">
+                              <div className="link">
+                                <div className="accordion-header-content">
+                                  <svg
+                                    width={14}
+                                    height={8}
+                                    viewBox="0 0 14 8"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M12.8332 1.08333L6.99984 6.91667L1.1665 1.08333"
+                                      stroke="#6E7485"
+                                      strokeWidth="1.5"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                    />
+                                  </svg>
+                                  {item}
+                                </div>
+                              </div>
                             </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              Đăng ký tham gia khóa học
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M12.5 14H3.49998C3.36737 14 3.2402 13.9473 3.14643 13.8535C3.05267 13.7598 3 13.6326 3 13.5V2.5C3 2.3674 3.05267 2.24022 3.14643 2.14645C3.2402 2.05268 3.36737 2 3.49998 2H9.50017L13 5.5V13.5C13 13.6326 12.9473 13.7598 12.8536 13.8535C12.7598 13.9473 12.6326 14 12.5 14V14Z"
-                                  fill="white"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                                <path d="M9.5 2V5.5H13.0005" fill="#1D2026" />
-                                <path
-                                  d="M9.5 2V5.5H13.0005"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                              Điều khoản và điều kiện của khóa học
-                            </div>
-                            <div className="curriculum-body-right">5.3 MB</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              Trải nghiệm với Soroban
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M12.5 14H3.49998C3.36737 14 3.2402 13.9473 3.14643 13.8535C3.05267 13.7598 3 13.6326 3 13.5V2.5C3 2.3674 3.05267 2.24022 3.14643 2.14645C3.2402 2.05268 3.36737 2 3.49998 2H9.50017L13 5.5V13.5C13 13.6326 12.9473 13.7598 12.8536 13.8535C12.7598 13.9473 12.6326 14 12.5 14V14Z"
-                                  fill="white"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                                <path d="M9.5 2V5.5H13.0005" fill="#1D2026" />
-                                <path
-                                  d="M9.5 2V5.5H13.0005"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                              Điều khoản và điều kiện của khóa học
-                            </div>
-                            <div className="curriculum-body-right">5.3 MB</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="accordion__list2">
-                        <div className="link">
-                          <div className="accordion-header-content">
-                            <svg
-                              width={14}
-                              height={8}
-                              viewBox="0 0 14 8"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M12.8332 1.08333L6.99984 6.91667L1.1665 1.08333"
-                                stroke="#6E7485"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                            Bí quyết của Toán học Sodoban
-                          </div>
-                          <div className="sub-heading-meta">
-                            <ul>
-                              <li>
-                                <svg
-                                  width={20}
-                                  height={20}
-                                  viewBox="0 0 20 20"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z"
-                                    stroke="#564FFD"
-                                    strokeWidth="1.3"
-                                    strokeMiterlimit={10}
-                                  />
-                                  <path
-                                    d="M12.5 10L8.75 7.5V12.5L12.5 10Z"
-                                    stroke="#564FFD"
-                                    strokeWidth="1.3"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                                52 lectures
-                              </li>
-                              <li>
-                                <svg
-                                  width={20}
-                                  height={20}
-                                  viewBox="0 0 20 20"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z"
-                                    stroke="#FD8E1F"
-                                    strokeWidth="1.3"
-                                    strokeMiterlimit={10}
-                                  />
-                                  <path
-                                    d="M10 5.625V10H14.375"
-                                    stroke="#FD8E1F"
-                                    strokeWidth="1.3"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                                5m 49m
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div className="accordion-body-text">
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              What’s is Webflow?
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              Sign up in Webflow
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M12.5 14H3.49998C3.36737 14 3.2402 13.9473 3.14643 13.8535C3.05267 13.7598 3 13.6326 3 13.5V2.5C3 2.3674 3.05267 2.24022 3.14643 2.14645C3.2402 2.05268 3.36737 2 3.49998 2H9.50017L13 5.5V13.5C13 13.6326 12.9473 13.7598 12.8536 13.8535C12.7598 13.9473 12.6326 14 12.5 14V14Z"
-                                  fill="white"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                                <path d="M9.5 2V5.5H13.0005" fill="#1D2026" />
-                                <path
-                                  d="M9.5 2V5.5H13.0005"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                              Webflow Terms &amp; Conditions
-                            </div>
-                            <div className="curriculum-body-right">5.3 MB</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              Teaser of Webflow
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M12.5 14H3.49998C3.36737 14 3.2402 13.9473 3.14643 13.8535C3.05267 13.7598 3 13.6326 3 13.5V2.5C3 2.3674 3.05267 2.24022 3.14643 2.14645C3.2402 2.05268 3.36737 2 3.49998 2H9.50017L13 5.5V13.5C13 13.6326 12.9473 13.7598 12.8536 13.8535C12.7598 13.9473 12.6326 14 12.5 14V14Z"
-                                  fill="white"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                                <path d="M9.5 2V5.5H13.0005" fill="#1D2026" />
-                                <path
-                                  d="M9.5 2V5.5H13.0005"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                              Webflow Terms &amp; Conditions
-                            </div>
-                            <div className="curriculum-body-right">5.3 MB</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="accordion__list2">
-                        <div className="link">
-                          <div className="accordion-header-content">
-                            <svg
-                              width={14}
-                              height={8}
-                              viewBox="0 0 14 8"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M12.8332 1.08333L6.99984 6.91667L1.1665 1.08333"
-                                stroke="#6E7485"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                            Thực hành Toán học như một nghệ sĩ
-                          </div>
-                          <div className="sub-heading-meta">
-                            <ul>
-                              <li>
-                                <svg
-                                  width={20}
-                                  height={20}
-                                  viewBox="0 0 20 20"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z"
-                                    stroke="#564FFD"
-                                    strokeWidth="1.3"
-                                    strokeMiterlimit={10}
-                                  />
-                                  <path
-                                    d="M12.5 10L8.75 7.5V12.5L12.5 10Z"
-                                    stroke="#564FFD"
-                                    strokeWidth="1.3"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                                52 lectures
-                              </li>
-                              <li>
-                                <svg
-                                  width={20}
-                                  height={20}
-                                  viewBox="0 0 20 20"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z"
-                                    stroke="#FD8E1F"
-                                    strokeWidth="1.3"
-                                    strokeMiterlimit={10}
-                                  />
-                                  <path
-                                    d="M10 5.625V10H14.375"
-                                    stroke="#FD8E1F"
-                                    strokeWidth="1.3"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                                5m 49m
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div className="accordion-body-text">
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              What’s is Webflow?
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              Sign up in Webflow
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M12.5 14H3.49998C3.36737 14 3.2402 13.9473 3.14643 13.8535C3.05267 13.7598 3 13.6326 3 13.5V2.5C3 2.3674 3.05267 2.24022 3.14643 2.14645C3.2402 2.05268 3.36737 2 3.49998 2H9.50017L13 5.5V13.5C13 13.6326 12.9473 13.7598 12.8536 13.8535C12.7598 13.9473 12.6326 14 12.5 14V14Z"
-                                  fill="white"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                                <path d="M9.5 2V5.5H13.0005" fill="#1D2026" />
-                                <path
-                                  d="M9.5 2V5.5H13.0005"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                              Webflow Terms &amp; Conditions
-                            </div>
-                            <div className="curriculum-body-right">5.3 MB</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              Teaser of Webflow
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M12.5 14H3.49998C3.36737 14 3.2402 13.9473 3.14643 13.8535C3.05267 13.7598 3 13.6326 3 13.5V2.5C3 2.3674 3.05267 2.24022 3.14643 2.14645C3.2402 2.05268 3.36737 2 3.49998 2H9.50017L13 5.5V13.5C13 13.6326 12.9473 13.7598 12.8536 13.8535C12.7598 13.9473 12.6326 14 12.5 14V14Z"
-                                  fill="white"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                                <path d="M9.5 2V5.5H13.0005" fill="#1D2026" />
-                                <path
-                                  d="M9.5 2V5.5H13.0005"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                              Webflow Terms &amp; Conditions
-                            </div>
-                            <div className="curriculum-body-right">5.3 MB</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="accordion__list2">
-                        <div className="link">
-                          <div className="accordion-header-content">
-                            <svg
-                              width={14}
-                              height={8}
-                              viewBox="0 0 14 8"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M12.8332 1.08333L6.99984 6.91667L1.1665 1.08333"
-                                stroke="#6E7485"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                            Phát triển kỹ năng sử dụng Soroban
-                          </div>
-                          <div className="sub-heading-meta">
-                            <ul>
-                              <li>
-                                <svg
-                                  width={20}
-                                  height={20}
-                                  viewBox="0 0 20 20"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z"
-                                    stroke="#564FFD"
-                                    strokeWidth="1.3"
-                                    strokeMiterlimit={10}
-                                  />
-                                  <path
-                                    d="M12.5 10L8.75 7.5V12.5L12.5 10Z"
-                                    stroke="#564FFD"
-                                    strokeWidth="1.3"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                                52 lectures
-                              </li>
-                              <li>
-                                <svg
-                                  width={20}
-                                  height={20}
-                                  viewBox="0 0 20 20"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z"
-                                    stroke="#FD8E1F"
-                                    strokeWidth="1.3"
-                                    strokeMiterlimit={10}
-                                  />
-                                  <path
-                                    d="M10 5.625V10H14.375"
-                                    stroke="#FD8E1F"
-                                    strokeWidth="1.3"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                                5m 49m
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div className="accordion-body-text">
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              What’s is Webflow?
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              Sign up in Webflow
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M12.5 14H3.49998C3.36737 14 3.2402 13.9473 3.14643 13.8535C3.05267 13.7598 3 13.6326 3 13.5V2.5C3 2.3674 3.05267 2.24022 3.14643 2.14645C3.2402 2.05268 3.36737 2 3.49998 2H9.50017L13 5.5V13.5C13 13.6326 12.9473 13.7598 12.8536 13.8535C12.7598 13.9473 12.6326 14 12.5 14V14Z"
-                                  fill="white"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                                <path d="M9.5 2V5.5H13.0005" fill="#1D2026" />
-                                <path
-                                  d="M9.5 2V5.5H13.0005"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                              Webflow Terms &amp; Conditions
-                            </div>
-                            <div className="curriculum-body-right">5.3 MB</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              Teaser of Webflow
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M12.5 14H3.49998C3.36737 14 3.2402 13.9473 3.14643 13.8535C3.05267 13.7598 3 13.6326 3 13.5V2.5C3 2.3674 3.05267 2.24022 3.14643 2.14645C3.2402 2.05268 3.36737 2 3.49998 2H9.50017L13 5.5V13.5C13 13.6326 12.9473 13.7598 12.8536 13.8535C12.7598 13.9473 12.6326 14 12.5 14V14Z"
-                                  fill="white"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                                <path d="M9.5 2V5.5H13.0005" fill="#1D2026" />
-                                <path
-                                  d="M9.5 2V5.5H13.0005"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                              Webflow Terms &amp; Conditions
-                            </div>
-                            <div className="curriculum-body-right">5.3 MB</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="accordion__list2">
-                        <div className="link">
-                          <div className="accordion-header-content">
-                            <svg
-                              width={14}
-                              height={8}
-                              viewBox="0 0 14 8"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M12.8332 1.08333L6.99984 6.91667L1.1665 1.08333"
-                                stroke="#6E7485"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                            Bí quyết thành công trong việc học Toán
-                          </div>
-                          <div className="sub-heading-meta">
-                            <ul>
-                              <li>
-                                <svg
-                                  width={20}
-                                  height={20}
-                                  viewBox="0 0 20 20"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z"
-                                    stroke="#564FFD"
-                                    strokeWidth="1.3"
-                                    strokeMiterlimit={10}
-                                  />
-                                  <path
-                                    d="M12.5 10L8.75 7.5V12.5L12.5 10Z"
-                                    stroke="#564FFD"
-                                    strokeWidth="1.3"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                                52 lectures
-                              </li>
-                              <li>
-                                <svg
-                                  width={20}
-                                  height={20}
-                                  viewBox="0 0 20 20"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z"
-                                    stroke="#FD8E1F"
-                                    strokeWidth="1.3"
-                                    strokeMiterlimit={10}
-                                  />
-                                  <path
-                                    d="M10 5.625V10H14.375"
-                                    stroke="#FD8E1F"
-                                    strokeWidth="1.3"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                                5m 49m
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div className="accordion-body-text">
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              What’s is Webflow?
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              Sign up in Webflow
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M12.5 14H3.49998C3.36737 14 3.2402 13.9473 3.14643 13.8535C3.05267 13.7598 3 13.6326 3 13.5V2.5C3 2.3674 3.05267 2.24022 3.14643 2.14645C3.2402 2.05268 3.36737 2 3.49998 2H9.50017L13 5.5V13.5C13 13.6326 12.9473 13.7598 12.8536 13.8535C12.7598 13.9473 12.6326 14 12.5 14V14Z"
-                                  fill="white"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                                <path d="M9.5 2V5.5H13.0005" fill="#1D2026" />
-                                <path
-                                  d="M9.5 2V5.5H13.0005"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                              Webflow Terms &amp; Conditions
-                            </div>
-                            <div className="curriculum-body-right">5.3 MB</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              Teaser of Webflow
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M12.5 14H3.49998C3.36737 14 3.2402 13.9473 3.14643 13.8535C3.05267 13.7598 3 13.6326 3 13.5V2.5C3 2.3674 3.05267 2.24022 3.14643 2.14645C3.2402 2.05268 3.36737 2 3.49998 2H9.50017L13 5.5V13.5C13 13.6326 12.9473 13.7598 12.8536 13.8535C12.7598 13.9473 12.6326 14 12.5 14V14Z"
-                                  fill="white"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                                <path d="M9.5 2V5.5H13.0005" fill="#1D2026" />
-                                <path
-                                  d="M9.5 2V5.5H13.0005"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                              Webflow Terms &amp; Conditions
-                            </div>
-                            <div className="curriculum-body-right">5.3 MB</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="accordion__list2">
-                        <div className="link">
-                          <div className="accordion-header-content">
-                            <svg
-                              width={14}
-                              height={8}
-                              viewBox="0 0 14 8"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M12.8332 1.08333L6.99984 6.91667L1.1665 1.08333"
-                                stroke="#6E7485"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                            Nâng cao
-                          </div>
-                          <div className="sub-heading-meta">
-                            <ul>
-                              <li>
-                                <svg
-                                  width={20}
-                                  height={20}
-                                  viewBox="0 0 20 20"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z"
-                                    stroke="#564FFD"
-                                    strokeWidth="1.3"
-                                    strokeMiterlimit={10}
-                                  />
-                                  <path
-                                    d="M12.5 10L8.75 7.5V12.5L12.5 10Z"
-                                    stroke="#564FFD"
-                                    strokeWidth="1.3"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                                52 lectures
-                              </li>
-                              <li>
-                                <svg
-                                  width={20}
-                                  height={20}
-                                  viewBox="0 0 20 20"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z"
-                                    stroke="#FD8E1F"
-                                    strokeWidth="1.3"
-                                    strokeMiterlimit={10}
-                                  />
-                                  <path
-                                    d="M10 5.625V10H14.375"
-                                    stroke="#FD8E1F"
-                                    strokeWidth="1.3"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                                5m 49m
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div className="accordion-body-text">
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              Giới thiệu về Soroban
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              Đăng ký tham gia khóa học
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M12.5 14H3.49998C3.36737 14 3.2402 13.9473 3.14643 13.8535C3.05267 13.7598 3 13.6326 3 13.5V2.5C3 2.3674 3.05267 2.24022 3.14643 2.14645C3.2402 2.05268 3.36737 2 3.49998 2H9.50017L13 5.5V13.5C13 13.6326 12.9473 13.7598 12.8536 13.8535C12.7598 13.9473 12.6326 14 12.5 14V14Z"
-                                  fill="white"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                                <path d="M9.5 2V5.5H13.0005" fill="#1D2026" />
-                                <path
-                                  d="M9.5 2V5.5H13.0005"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                              Điều khoản và điều kiện của khóa học
-                            </div>
-                            <div className="curriculum-body-right">5.3 MB</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M13.5925 7.57338L4.59398 2.0741C4.51819 2.02778 4.43142 2.00248 4.34261 2.00082C4.2538 1.99916 4.16615 2.02118 4.08868 2.06463C4.0112 2.10808 3.9467 2.17139 3.90181 2.24803C3.85692 2.32468 3.83325 2.41191 3.83325 2.50073V13.4993C3.83325 13.5881 3.85692 13.6754 3.90181 13.752C3.9467 13.8287 4.0112 13.892 4.08868 13.9354C4.16615 13.9789 4.2538 14.0009 4.34261 13.9992C4.43142 13.9976 4.51819 13.9723 4.59398 13.9259L13.5925 8.42666C13.6656 8.38199 13.726 8.3193 13.7679 8.2446C13.8098 8.16989 13.8318 8.08567 13.8318 8.00002C13.8318 7.91437 13.8098 7.83015 13.7679 7.75545C13.726 7.68074 13.6656 7.61805 13.5925 7.57338Z"
-                                  fill="#1D2026"
-                                />
-                              </svg>
-                              Trải nghiệm với Soroban
-                            </div>
-                            <div className="curriculum-body-right">07:31</div>
-                          </div>
-                          <div className="lectue-body-item">
-                            <div className="curriculum-body-left">
-                              <svg
-                                width={16}
-                                height={16}
-                                viewBox="0 0 16 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M12.5 14H3.49998C3.36737 14 3.2402 13.9473 3.14643 13.8535C3.05267 13.7598 3 13.6326 3 13.5V2.5C3 2.3674 3.05267 2.24022 3.14643 2.14645C3.2402 2.05268 3.36737 2 3.49998 2H9.50017L13 5.5V13.5C13 13.6326 12.9473 13.7598 12.8536 13.8535C12.7598 13.9473 12.6326 14 12.5 14V14Z"
-                                  fill="white"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                                <path d="M9.5 2V5.5H13.0005" fill="#1D2026" />
-                                <path
-                                  d="M9.5 2V5.5H13.0005"
-                                  stroke="#1D2026"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                              Điều khoản và điều kiện của khóa học
-                            </div>
-                            <div className="curriculum-body-right">5.3 MB</div>
-                          </div>
-                        </div>
-                      </div>
+                          );
+                        })}
                     </div>
                   </div>
                   <div id="instructor" className="course-instructor-section">
                     <div className="course-single-title">
-                      <h3>Course instructor (02)</h3>
+                      <h3>Tác giả (02)</h3>
                     </div>
                     <div className="profile-wrap course-instructor">
                       <div className="profile-left">
@@ -1913,7 +810,10 @@ const CourseProfile = () => {
                         </div>
                         <div className="profile-data">
                           <h3>{info.teacher}</h3>
-                          <p>Luyện thi Toán Học</p>
+                          <p>
+                            Nhà văn, Doanh nhân, Nhà kinh tế học, Giáo sư giảng
+                            viên quốc tế
+                          </p>
                           <div className="profile-review">
                             <ul>
                               <li>
@@ -1929,8 +829,8 @@ const CourseProfile = () => {
                                     fill="#FD8E1F"
                                   />
                                 </svg>
-                                <span>4.8</span>
-                                (134,633 review)
+                                <span>4.9</span>
+                                (4,633 review)
                               </li>
                               <li>
                                 <svg
@@ -2001,12 +901,15 @@ const CourseProfile = () => {
                             </ul>
                           </div>
                           <p>
-                            One day Vako had enough with the 9-to-5 grind, or
-                            more like 9-to-9 in his case, and quit his job, or
-                            more like got himself fired from his own startup. He
-                            decided to work on his dream: be his own boss,
-                            travel the world, only do the work he enjoyed...a{" "}
-                            <a href="#">Read more</a>
+                            Alex Rovira sinh năm 1969 tại Barcelona, Tây Ban
+                            Nha. Tốt nghiệp MBA tại ESADE, Alex trở thành một
+                            nhà đào tạo tại các hội thảo về Đổi mới, Quản lý
+                            Thay đổi, Quản lý Nhân tài, Quản lý Con người và Tư
+                            duy Sáng tạo cho các lãnh đạo cấp cao của các công
+                            ty hay các tổ chức phi chính phủ. Sách của ông xuất
+                            bản nhanh chóng có mặt trong top sách bán chạy nhất
+                            và được dịch ra nhiều ngôn ngữ, bán hàng triệu bản
+                            trên thế giới.... <a href="#">Read more</a>
                           </p>
                         </div>
                       </div>
@@ -2119,7 +1022,7 @@ const CourseProfile = () => {
                   </div>
                   <div className="course-ratting-section">
                     <div className="course-single-title">
-                      <h3>Course Rating</h3>
+                      <h3>Đánh giá tổng quan</h3>
                     </div>
                     <div className="rating-area">
                       <div className="rating-box">
@@ -2229,7 +1132,7 @@ const CourseProfile = () => {
                             </svg>
                           </li>
                         </ul>
-                        <p>Course Rating</p>
+                        <p>Đánh giá EBook</p>
                       </div>
                       <div className="rating-percentage">
                         <div className="percentage-line">
@@ -2677,7 +1580,7 @@ const CourseProfile = () => {
                   </div>
                   <div id="review" className="student-feedback-section">
                     <div className="course-single-title">
-                      <h3>Students Feedback</h3>
+                      <h3>Review</h3>
                       <div className="select-box ratting">
                         <select
                           className="custom-select sources"
@@ -3525,4 +2428,4 @@ const CourseProfile = () => {
   );
 };
 
-export default CourseProfile;
+export default BookInfo;

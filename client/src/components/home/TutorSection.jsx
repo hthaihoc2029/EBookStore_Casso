@@ -88,7 +88,7 @@ const TutorSection = () => {
         <div className="container">
           <div className="feature-course-wrap">
             <div className="section-title">
-              <h2>Gia sư hàng đầu của chúng tôi</h2>
+              <h2>Tựa sách hàng đầu của chúng tôi</h2>
             </div>
             <div className="d-flex justify-content-center course-item-5-grid">
               {instructors &&

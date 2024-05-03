@@ -8,18 +8,18 @@ const EntrySection = () => {
           <div className="row">
             <div className="col-xl-6">
               <div className="cta-left">
-                <h4>Tuyển gia sư?</h4>
+                <h4>Mua sách điện tử?</h4>
                 <p>
-                  Bạn đang tìm kiếm một gia sư giỏi và đáng tin cậy cho con của
-                  mình? Hãy khám phá cùng chúng tôi! Chúng tôi sẽ kết nối bạn
-                  với những gia sư có kinh nghiệm, đầy đủ kiến thức và đam mê
-                  giảng dạy.
+                  Chào mừng đến với trải nghiệm mua sách điện tử tại Casso!
+                  Chúng tôi tự hào mang đến cho bạn một bộ sưu tập đa dạng các
+                  ebook từ những tác giả nổi tiếng và các thể loại sách phổ
+                  biến.
                 </p>
                 <a
                   className="default-btn btn-large bg-white icon-btn"
                   href="/parents/contact"
                 >
-                  Đăng ký ngay
+                  Mua ngay
                   <svg
                     width={24}
                     height={24}
@@ -50,23 +50,21 @@ const EntrySection = () => {
             </div>
             <div className="col-xl-6">
               <div className="cta-right">
-                <h3>Từng bước để tìm gia sư</h3>
+                <h3>Quy trình đơn giản và tiện lợi:</h3>
                 <ul>
                   <li>
-                    <span className="color-1">1</span> Đăng ký tài khoản phụ
-                    huynh
+                    <span className="color-1">1</span> Tìm Kiếm Sách
                   </li>
                   <li>
-                    <span className="color-2">2</span> Tìm kiếm và lựa chọn gia
-                    sư phù hợp
+                    <span className="color-2">2</span> Thêm Vào Giỏ Hàng
                   </li>
                   <li>
-                    <span className="color-3">3</span> Liên hệ và thảo luận yêu
-                    cầu học với gia sư
+                    <span className="color-3">3</span> Thanh Toán An Toàn với
+                    PayOS
                   </li>
                   <li>
-                    <span className="color-4">4</span> Bắt đầu buổi học và theo
-                    dõi tiến trình
+                    <span className="color-4">4</span> Tải Xuống và Thường Thức
+                    Đọc Sách
                   </li>
                 </ul>
               </div>

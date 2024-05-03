@@ -20,19 +20,18 @@ const Header = (props) => {
           <div className="main-menu">
             <ul>
               <li>
-                <a
-                  className={activeLink === "home" ? "active" : ""}
-                  href="/parents"
-                >
+                <a className={activeLink === "home" ? "active" : ""} href="/">
                   Trang Chủ
                 </a>
               </li>
               <li>
                 <a
                   className={activeLink === "courses" ? "active" : ""}
-                  href="/parents/courses"
+                  onClick={() => {
+                    navigate("/book-info");
+                  }}
                 >
-                  Khóa học
+                  EBook
                 </a>
               </li>
               <li>

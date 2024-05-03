@@ -13,7 +13,7 @@ const HomePage = () => {
       <Header activeLink="home" />
       <HeroSection />
       <CategorySection />
-      <CourseSection />
+      {/* <CourseSection /> */}
       <EntrySection />
       <TutorSection />
       <Footer />

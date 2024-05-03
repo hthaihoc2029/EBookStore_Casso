@@ -698,7 +698,7 @@ const CategorySection = () => {
           <div className="icon-bottom-btn mt-4">
             <p>
               Chúng tôi còn nhiều hơn thế nữa.{" "}
-              <a href="category.html">
+              <a href="#">
                 Duyệt tất cả
                 <svg
                   width={24}

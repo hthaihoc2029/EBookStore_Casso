@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import FilterSection from "../components/tutor/FilterSection";
-import CoursesSection from "../components/courses/CoursesSection";
+import CoursesSection from "../components/book/CoursesSection";
 const CoursesPage = () => {
   return (
     <>
