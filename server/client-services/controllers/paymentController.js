@@ -1,8 +1,8 @@
-const { PaymentPostService } = require("../services/index.js");
+const { postPaymentService } = require("../services/index.js");
 const jwt = require("jsonwebtoken");
 
-const PaymentForPost = async (req, res) => {
-  const result = await PaymentPostService();
+const postPaymentController = async (req, res) => {
+  const result = await postPaymentService();
   if (result) {
     res.status(200).json({ data: result, EC: 0 });
   } else {
@@ -10,4 +10,4 @@ const PaymentForPost = async (req, res) => {
   }
 };
 
-module.exports = { PaymentForPost };
+module.exports = { postPaymentController };

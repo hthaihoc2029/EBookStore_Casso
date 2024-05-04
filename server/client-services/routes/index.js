@@ -1,6 +1,6 @@
-const { PaymentForPost } = require("../controllers/paymentController");
+const { postPaymentController } = require("../controllers/paymentController");
 const router = require("express").Router();
-router.post("/payment", PaymentForPost);
+router.post("/payment", postPaymentController);
 
 const clientAPIRouter = router;
 module.exports = clientAPIRouter;

@@ -1,5 +1,6 @@
 import React from "react";
 import bookThumbnail from "../../assets/bookThumb.png";
+import { postPayment } from "../../services/apiPayment";
 const ConfirmPayment = () => {
   const handleClickPayment = async () => {
     let data = await postPayment();
