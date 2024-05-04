@@ -3,9 +3,7 @@ const cors = require("cors");
 const cookieParser = require("cookie-parser");
 require("dotenv").config();
 
-// const adminAPIRouter = require("./admin-service/routes");
-// const tutorAPIRouter = require("./tutor-service/routes");
-const clientAPIRouter = require("./services/routes");
+const clientAPIRouter = require("./client-services/routes");
 
 // App setup
 const app = express();
@@ -23,9 +21,7 @@ app.use(cors(corsOptions));
 app.use(cookieParser());
 
 // Every route should start with /api
-// app.use('/api', adminAPIRouter);
-// app.use('/api', tutorAPIRouter);
-app.use("/api/parent", parentsAPIRouter);
+app.use("/api/client", clientAPIRouter);
 
 // Error handlers
 app.use((err, req, res, next) => {
