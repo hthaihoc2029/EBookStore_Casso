@@ -8,7 +8,7 @@ const ContactPage = () => {
       <div class="contact-section section-padding">
         <div class="container">
           <div class="section-title">
-            <h2>Liên hệ đăng ký với chúng tôi</h2>
+            <h2>Liên hệ hỗ trợ với chúng tôi</h2>
           </div>
           <div class="row">
             <div class="col-lg-6">
@@ -24,9 +24,9 @@ const ContactPage = () => {
                 <div class="contact-info-item">
                   <h5>Địa chỉ</h5>
                   <p>
-                    Trường ĐH Bách Khoa - ĐHQG TP.HCM
+                    Cửa hàng sách CassoBook
                     <br />
-                    CS1: 268 Lý Thường Kiệt, Q.10, TP.HCM
+                    CS1: Linh Trung, Thủ Đức, TP.HCM
                     <br />
                     CS2: Đông Hòa, Dĩ An, Bình Dương
                   </p>
@@ -43,11 +43,11 @@ const ContactPage = () => {
                   <h5>Địa chỉ email</h5>
                   <p>
                     <a href="mailto:someone@yoursite.com">
-                      help.BKtutor@gmail.com
+                      help.CassoBook@gmail.com
                     </a>{" "}
                     <br />
                     <a href="mailto:someone@yoursite.com">
-                      career.BKtutor@gmail.com
+                      career.CassoBook@gmail.com
                     </a>
                   </p>
                 </div>
@@ -56,19 +56,19 @@ const ContactPage = () => {
             <div class="col-lg-6">
               <div class="contact-wrap">
                 <div class="contact-title">
-                  <h5>Get In touch</h5>
+                  <h5>Liên lạc ngay</h5>
                   <p>
-                    Feel free contact with us, we love to make new partners &
-                    friends
+                    Hãy thoải mái liên lạc với chúng tôi, chúng tôi rất sẵn lòng
+                    được hỗ trợ quý khách!
                   </p>
                 </div>
                 <form action="#">
                   <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                       <div class="form-field mb-3">
-                        <label>Full name</label>
+                        <label>First name</label>
                         <div class="field-wrapper">
-                          <input type="text" placeholder="Full name" />
+                          <input type="text" placeholder="First name" />
                         </div>
                       </div>
                     </div>

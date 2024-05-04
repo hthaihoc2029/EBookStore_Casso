@@ -2,13 +2,11 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import LoginPage from "../pages/LoginPage";
 import RegisterPage from "../pages/RegisterPage";
-import CoursesPage from "../pages/CoursesPage";
-import TutorsPage from "../pages/TutorsPage";
+import CoursesPage from "../pages/EbookPage";
 import ContactPage from "../pages/ContactPage";
 import PaymentPage from "../pages/PaymentPage";
 import HistoryPage from "../pages/HistoryPage";
-import TutorProfile from "../components/tutorProfile/TutorProfile";
-import BookInfo from "../components/book/BookInfo";
+import EbookPage from "../pages/EbookPage";
 
 function WebRouter() {
   return (
@@ -16,9 +14,7 @@ function WebRouter() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/courses" element={<CoursesPage />} />
-        <Route path="/tutors" element={<TutorsPage />} />
-        <Route path="/tutor-profile" element={<TutorProfile />} />
-        <Route path="/book-info" element={<BookInfo />} />
+        <Route path="/book-info" element={<EbookPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/history" element={<HistoryPage />} />

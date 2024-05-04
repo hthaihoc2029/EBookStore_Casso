@@ -29,7 +29,7 @@ const Header = (props) => {
               </li>
               <li>
                 <a
-                  className={activeLink === "courses" ? "active" : ""}
+                  className={activeLink === "book" ? "active" : ""}
                   onClick={() => {
                     navigate("/book-info");
                   }}
@@ -39,24 +39,18 @@ const Header = (props) => {
               </li>
               <li>
                 <a
-                  className={activeLink === "tutors" ? "active" : ""}
-                  href="/parents/tutors"
-                >
-                  Gia sư
-                </a>
-              </li>
-              <li>
-                <a
                   className={activeLink === "contact" ? "active" : ""}
-                  href="/parents/contact"
+                  onClick={() => navigate("/contact")}
                 >
-                  Liên hệ đăng ký
+                  Liên hệ hỗ trợ
                 </a>
               </li>
               <li>
                 <a
                   className={activeLink === "payment" ? "active" : ""}
-                  href="/parents/payment"
+                  onClick={() => {
+                    navigate("/payment");
+                  }}
                 >
                   Thanh toán
                 </a>
