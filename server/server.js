@@ -5,7 +5,7 @@ require("dotenv").config();
 
 // const adminAPIRouter = require("./admin-service/routes");
 // const tutorAPIRouter = require("./tutor-service/routes");
-const parentsAPIRouter = require("./parents-service/routes");
+const clientAPIRouter = require("./services/routes");
 
 // App setup
 const app = express();
