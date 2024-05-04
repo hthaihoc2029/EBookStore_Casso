@@ -20,7 +20,7 @@ const Footer = () => {
                   <div className="social-icon footer-social">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a>
                           <svg
                             width={9}
                             height={18}
@@ -36,7 +36,7 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           <svg
                             width={18}
                             height={18}
@@ -60,7 +60,7 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           <svg
                             width={19}
                             height={18}
@@ -84,7 +84,7 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           <svg
                             width={19}
                             height={15}
@@ -100,7 +100,7 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           <svg
                             width={19}
                             height={13}
@@ -129,7 +129,7 @@ const Footer = () => {
                   <div className="footer-menu">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a>
                           Sự kiện
                           <svg
                             width={16}
@@ -156,7 +156,7 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           Tin tức
                           <svg
                             width={16}
@@ -183,7 +183,7 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           Tuyển dụng
                           <svg
                             width={16}
@@ -210,7 +210,7 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           Đăng ký
                           <svg
                             width={16}
@@ -248,7 +248,7 @@ const Footer = () => {
                   <div className="footer-menu">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a>
                           About
                           <svg
                             width={16}
@@ -275,7 +275,7 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           EBooks
                           <svg
                             width={16}
@@ -302,7 +302,7 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           Liên hệ
                           <svg
                             width={16}
@@ -329,7 +329,7 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           Thanh toán
                           <svg
                             width={16}
@@ -367,7 +367,7 @@ const Footer = () => {
                   <div className="footer-menu">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a>
                           Trung tâm trợ giúp
                           <svg
                             width={16}
@@ -394,7 +394,7 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           FAQs
                           <svg
                             width={16}
@@ -421,7 +421,7 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           Điều khoản dịch vụ
                           <svg
                             width={16}
@@ -448,7 +448,7 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a>
                           Chính sách bảo mật
                           <svg
                             width={16}

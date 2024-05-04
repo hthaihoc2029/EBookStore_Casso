@@ -82,7 +82,13 @@ const Header = (props) => {
                 </a>
               </li>
               <li>
-                <a href="/parents/history">Lịch sử</a>
+                <a
+                  onClick={() => {
+                    navigate("/history");
+                  }}
+                >
+                  Lịch sử
+                </a>
               </li>
             </ul>
           </div>
@@ -306,10 +312,16 @@ const Header = (props) => {
               </ul>
             </div>
             <div className="header-btn-wrap">
-              <a className="header-btn orange-btn" href="/parents/register">
+              <a
+                className="header-btn orange-btn"
+                onClick={() => navigate("/register")}
+              >
                 Tạo tài khoản
               </a>
-              <a className="header-btn div-orange-btn" href="/parents/login">
+              <a
+                className="header-btn div-orange-btn"
+                onClick={() => navigate("/login")}
+              >
                 Đăng nhập
               </a>
             </div>
