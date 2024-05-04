@@ -1,17 +1,18 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import "../sass/main.scss";
 import Logo from "../../assets/LOGO.svg";
 import { FaSearch } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { Bs1CircleFill } from "react-icons/bs";
 import bookThumbnail from "../../assets/bookThumb.png";
+import { deleteCart } from "../../redux/action/cartAction";
 
 const Header = (props) => {
+  const dispatch = useDispatch();
   const [isNotificationVisible, setNotificationVisible] = useState(false);
   const notificationRef = useRef(null);
-  const isAddCart = useSelector((state) => state.cart.isAddCart);
-  console.log(isAddCart);
+  let isAddCart = useSelector((state) => state.cart.isAddCart);
   const { activeLink } = props;
   let navigate = useNavigate();
   useEffect(() => {
@@ -207,7 +208,7 @@ const Header = (props) => {
                           left: "15px",
                         }}
                         className="numbert-cart"
-                        onmouseover="this.style.color='red'"
+                        onMouseOver="this.style.color='red'"
                       >
                         <Bs1CircleFill />
                       </div>
@@ -244,29 +245,58 @@ const Header = (props) => {
                       >
                         <div className="card-header">
                           <h2 className="card-title">Giỏ hàng hiện tại</h2>
-                          <p className="mark-read">Xóa tất cả</p>
+                          <p
+                            className="mark-read"
+                            onClick={() => {
+                              dispatch(deleteCart());
+                            }}
+                          >
+                            Xóa tất cả
+                          </p>
                         </div>
                         <div className="card-body">
                           {/* Activity content  */}
                           <ul className="activity">
-                            <li className="activity-item">
-                              <div style={{ paddingRight: "20px" }}>
-                                <img
-                                  className="img-thumbnail img-fluid"
-                                  style={{ maxWidth: "80px" }}
-                                  src={bookThumbnail}
-                                />
-                              </div>
-                              <div className="activity-info">
-                                <p>
-                                  {" "}
-                                  <span className="username">Kevin</span>{" "}
-                                  comments on your lecture “What is ux” in “2021
-                                  ui/ux design with figma”
+                            {isAddCart ? (
+                              <li
+                                onClick={() => {
+                                  navigate("/payment");
+                                }}
+                                className="activity-item"
+                              >
+                                <div style={{ paddingRight: "20px" }}>
+                                  <img
+                                    className="img-thumbnail img-fluid"
+                                    style={{ maxWidth: "80px" }}
+                                    src={bookThumbnail}
+                                  />
+                                </div>
+
+                                <div className="activity-info">
+                                  <p>
+                                    {" "}
+                                    <span className="username">
+                                      Ebook: Bí mật của May mắn
+                                    </span>{" "}
+                                    - Alex Rovira &#38; Fernando Trias de Bes
+                                  </p>
+                                  <span className="time">Giá: 10.000 VND</span>
+                                </div>
+                              </li>
+                            ) : (
+                              <div
+                                style={{
+                                  padding: "15px",
+                                  display: "flex",
+                                  justifyContent: "center",
+                                }}
+                                className="not-add-cart"
+                              >
+                                <p style={{ color: "red" }}>
+                                  Chưa có sách trong giỏ hàng!
                                 </p>
-                                <span className="time">Just now</span>
                               </div>
-                            </li>
+                            )}
                           </ul>
                         </div>
                       </div>
