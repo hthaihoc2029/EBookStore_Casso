@@ -12,6 +12,7 @@ const BookInfo = () => {
   const dispatch = useDispatch();
   const handleAddCart = () => {
     dispatch(addCart());
+    window.scrollTo(0, 0);
   };
   const info = {
     name: "Bí mật của may mắn",

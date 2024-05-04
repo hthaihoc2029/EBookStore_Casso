@@ -4,7 +4,7 @@
   align-items: center;
   position: relative;
   background-color: #1d2026;
-  @include mq('desktop', max) {
+  @include mq("desktop", max) {
     padding: 20px 34px 20px 24px;
     background-color: #fff;
   }
@@ -33,7 +33,7 @@
             color: white;
           }
           &:before {
-            content: '';
+            content: "";
             left: 50%;
             width: 0;
             top: 0;
@@ -55,14 +55,14 @@
         }
       }
     }
-    @include mq('desktop', max) {
+    @include mq("desktop", max) {
       display: none;
     }
   }
 }
 
 .header-right {
-  @include mq('desktop', max) {
+  @include mq("desktop", max) {
     display: none !important;
   }
   .select-item {
@@ -97,15 +97,15 @@
   display: flex;
   // flex-wrap: wrap;
   align-items: center;
-  @include mq('desktop', max) {
+  @include mq("desktop", max) {
     display: none;
   }
   .header-bottom-left {
     flex: 0 0 70%;
-    @include mq('desktop-wide', max) {
+    @include mq("desktop-wide", max) {
       flex: 0 0 60%;
     }
-    @include mq('tablet', max) {
+    @include mq("tablet", max) {
       flex: 0 0 40%;
     }
     .header-bottom-left-wrap {
@@ -114,7 +114,7 @@
       .main-logo {
         margin-right: 50px;
 
-        @include mq('desktop-wide', max) {
+        @include mq("desktop-wide", max) {
           margin-right: 20px;
         }
       }
@@ -129,7 +129,7 @@
         display: flex;
         align-items: center;
         margin: 0;
-        @include mq('desktop-wide', max) {
+        @include mq("desktop-wide", max) {
           min-width: 150px;
         }
       }
@@ -165,27 +165,27 @@
   }
 }
 
-.search-field input[type='search']::-webkit-input-placeholder {
+.search-field input[type="search"]::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: #8c94a3;
   opacity: 1;
 }
-.search-field input[type='search']:-moz-placeholder {
+.search-field input[type="search"]:-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #8c94a3;
   opacity: 1;
 }
-.search-field input[type='search']::-moz-placeholder {
+.search-field input[type="search"]::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #8c94a3;
   opacity: 1;
 }
-.search-field input[type='search']:-ms-input-placeholder {
+.search-field input[type="search"]:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: #8c94a3;
   opacity: 1;
 }
-.search-field input[type='search']::-ms-input-placeholder {
+.search-field input[type="search"]::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #8c94a3;
   opacity: 1;
@@ -196,10 +196,10 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  @include mq('desktop-wide', max) {
+  @include mq("desktop-wide", max) {
     flex: 0 0 40%;
   }
-  @include mq('tablet', max) {
+  @include mq("tablet", max) {
     flex: 0 0 50%;
   }
   .header-btn-wrap {
@@ -291,7 +291,7 @@
       }
       a.bell-icon {
         &:before {
-          content: '';
+          content: "";
           right: 3px;
           top: 3px;
           width: 8px;
@@ -365,7 +365,7 @@
         margin: 0;
         li {
           border: none;
-          @include mq('desktop', max) {
+          @include mq("desktop", max) {
             margin: 0 5px;
           }
           &:first-child {
@@ -389,7 +389,7 @@
 }
 .offcanves-menu {
   display: none;
-  @include mq('desktop', max) {
+  @include mq("desktop", max) {
     display: block;
   }
 }
@@ -498,7 +498,7 @@
   transform: translateY(-50%);
   cursor: pointer;
   display: none;
-  @include mq('desktop', max) {
+  @include mq("desktop", max) {
     display: block;
   }
 }
@@ -508,7 +508,7 @@
   svg {
     width: 148px;
   }
-  @include mq('desktop', max) {
+  @include mq("desktop", max) {
     display: block;
   }
 }
@@ -539,22 +539,22 @@ a.header-user {
 
 .header-bottom.header-three {
   background-color: #f5f7fa;
-  @include mq('desktop', max) {
+  @include mq("desktop", max) {
     display: flex;
   }
-  @include mq('tablet', max) {
+  @include mq("tablet", max) {
     display: block;
     text-align: center;
   }
   .header-bottom-right {
-    @include mq('tablet', max) {
+    @include mq("tablet", max) {
       margin-top: 20px;
       flex: 0 0 100%;
       display: block;
     }
   }
   .header-bottom-left-wrap {
-    @include mq('tablet', max) {
+    @include mq("tablet", max) {
       display: block;
     }
   }
@@ -568,7 +568,7 @@ a.header-arrow {
   border-radius: 100%;
   flex: 0 0 auto;
   margin-right: 16px;
-  @include mq('tablet', max) {
+  @include mq("tablet", max) {
     margin: 0 0 20px;
   }
 }
@@ -642,7 +642,7 @@ header.header-section.header-four {
   align-items: center;
   justify-content: space-between;
   box-shadow: none;
-  @include mq('desktop', max) {
+  @include mq("desktop", max) {
     display: flex;
   }
 
