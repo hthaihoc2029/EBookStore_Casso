@@ -1,6 +1,8 @@
 import React from "react";
 import tutorPic from "../../assets/images/cta.png";
+import { useNavigate } from "react-router-dom";
 const EntrySection = () => {
+  let navigate = useNavigate();
   return (
     <>
       <div className="cat-section">
@@ -17,7 +19,9 @@ const EntrySection = () => {
                 </p>
                 <a
                   className="default-btn btn-large bg-white icon-btn"
-                  href="/parents/contact"
+                  onClick={() => {
+                    navigate("/book-info");
+                  }}
                 >
                   Mua ngay
                   <svg

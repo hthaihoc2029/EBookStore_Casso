@@ -10,7 +10,7 @@ const CategorySection = () => {
           </div>
           <div className="row">
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <a className="d-block" href="category.html">
+              <a className="d-block">
                 <div className="category-content badge-color-1">
                   <div className="category-content-left">
                     <svg
@@ -105,7 +105,7 @@ const CategorySection = () => {
               </a>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <a className="d-block" href="category.html">
+              <a className="d-block">
                 <div className="category-content  badge-color-2">
                   <div className="category-content-left">
                     <svg
@@ -172,7 +172,7 @@ const CategorySection = () => {
               </a>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <a className="d-block" href="category.html">
+              <a className="d-block">
                 <div className="category-content  badge-color-3">
                   <div className="category-content-left">
                     <svg
@@ -225,7 +225,7 @@ const CategorySection = () => {
               </a>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <a className="d-block" href="category.html">
+              <a className="d-block">
                 <div className="category-content  badge-color-4">
                   <div className="category-content-left">
                     <svg
@@ -278,7 +278,7 @@ const CategorySection = () => {
               </a>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <a className="d-block" href="category.html">
+              <a className="d-block">
                 <div className="category-content  badge-color-2">
                   <div className="category-content-left">
                     <svg
@@ -373,7 +373,7 @@ const CategorySection = () => {
               </a>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <a className="d-block" href="category.html">
+              <a className="d-block">
                 <div className="category-content  badge-color-6">
                   <div className="category-content-left">
                     <svg
@@ -419,7 +419,7 @@ const CategorySection = () => {
               </a>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <a className="d-block" href="category.html">
+              <a className="d-block">
                 <div className="category-content  badge-color-1">
                   <div className="category-content-left">
                     <svg
@@ -458,7 +458,7 @@ const CategorySection = () => {
               </a>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <a className="d-block" href="category.html">
+              <a className="d-block">
                 <div className="category-content  badge-color-6">
                   <div className="category-content-left">
                     <svg
@@ -497,7 +497,7 @@ const CategorySection = () => {
               </a>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <a className="d-block" href="category.html">
+              <a className="d-block">
                 <div className="category-content  badge-color-3">
                   <div className="category-content-left">
                     <svg
@@ -550,7 +550,7 @@ const CategorySection = () => {
               </a>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <a className="d-block" href="category.html">
+              <a className="d-block">
                 <div className="category-content  badge-color-4">
                   <div className="category-content-left">
                     <svg
@@ -603,7 +603,7 @@ const CategorySection = () => {
               </a>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <a className="d-block" href="category.html">
+              <a className="d-block">
                 <div className="category-content  badge-color-2">
                   <div className="category-content-left">
                     <svg
@@ -656,7 +656,7 @@ const CategorySection = () => {
               </a>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <a className="d-block" href="category.html">
+              <a className="d-block">
                 <div className="category-content  badge-color-3">
                   <div className="category-content-left">
                     <svg

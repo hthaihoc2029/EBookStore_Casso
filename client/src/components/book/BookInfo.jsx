@@ -1,14 +1,19 @@
 import React, { useEffect } from "react";
 import Header from "../header/Header";
+import { FaBookOpen } from "react-icons/fa6";
+import { MdOutlineFormatListNumbered } from "react-icons/md";
+import { MdOutlineDateRange } from "react-icons/md";
+import { SiMicrosofttranslator } from "react-icons/si";
+
 const BookInfo = () => {
   const info = {
     name: "Bí mật của may mắn",
     title:
       "Cuốn sách đem đến cho con người những thông điệp tích cực cho cuộc sống, nuôi dưỡng tâm hồn trong sáng, thuần khiết",
     teacher: "Alex Rovira",
-    price: "1.200.000 VND",
-    priceBefore: "2.000.000 VND",
-    discount: "40%",
+    price: "10.000 VND",
+    priceBefore: "20.000 VND",
+    discount: "50%",
     imgTeacher1:
       "https://www.speakersassociates.com/wp-content/uploads/2021/12/Alex-Rovira-e1630488290796.jpg",
     imgTeacher2:
@@ -283,10 +288,10 @@ const BookInfo = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#curriculum">Chương trình</a>
+                        <a href="#curriculum">Mục lục</a>
                       </li>
                       <li>
-                        <a href="#instructor">Gia sư</a>
+                        <a href="#instructor">Giới thiệu tác giả</a>
                       </li>
                       <li>
                         <a href="#review">Đánh giá</a>
@@ -1540,7 +1545,7 @@ const BookInfo = () => {
                               strokeLinejoin="round"
                             />
                           </svg>
-                          2 days left at this price!
+                          Chỉ còn 2 ngày ở mức giá này!
                         </h6>
                       </div>
                       <div className="price-dicount">
@@ -1553,147 +1558,30 @@ const BookInfo = () => {
                       <ul>
                         <li>
                           <a href="#">
-                            <svg
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
-                                stroke="#A1A5B3"
-                                strokeWidth="1.5"
-                                strokeMiterlimit={10}
-                              />
-                              <path
-                                d="M12 6.75V12H17.25"
-                                stroke="#A1A5B3"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                            Thời gian lớp học
-                            <span>2 tháng</span>
+                            <FaBookOpen color="gray" />
+                            Nhà xuất bản
+                            <span>NXB Tổng hợp TP.HCM</span>
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            <svg
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M12 20V10"
-                                stroke="#A1A5B3"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                              <path
-                                d="M18 20V4"
-                                stroke="#A1A5B3"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                              <path
-                                d="M6 20V16"
-                                stroke="#A1A5B3"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                            Cấp độ
-                            <span>Tiêu học</span>
+                            <MdOutlineDateRange size={18} color="gray" />
+                            Ngày xuất bản
+                            <span>Quý 2/2005</span>
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            <svg
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M8.25 15C10.9424 15 13.125 12.8174 13.125 10.125C13.125 7.43261 10.9424 5.25 8.25 5.25C5.55761 5.25 3.375 7.43261 3.375 10.125C3.375 12.8174 5.55761 15 8.25 15Z"
-                                stroke="#A1A5B3"
-                                strokeWidth="1.5"
-                                strokeMiterlimit={10}
-                              />
-                              <path
-                                d="M14.5698 5.43173C15.2403 5.24281 15.9436 5.19978 16.6321 5.30552C17.3207 5.41126 17.9786 5.66333 18.5615 6.04475C19.1444 6.42616 19.6389 6.92807 20.0115 7.51666C20.3841 8.10525 20.6263 8.76685 20.7217 9.45692C20.8171 10.147 20.7635 10.8495 20.5645 11.5171C20.3655 12.1847 20.0258 12.8019 19.5682 13.3272C19.1107 13.8524 18.5458 14.2735 17.9118 14.5621C17.2777 14.8507 16.5892 15.0001 15.8926 15.0001"
-                                stroke="#A1A5B3"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                              <path
-                                d="M1.49951 18.5059C2.26089 17.4229 3.27166 16.539 4.4465 15.9288C5.62133 15.3186 6.92574 15.0001 8.24959 15C9.57344 14.9999 10.8779 15.3184 12.0528 15.9285C13.2276 16.5386 14.2385 17.4225 14.9999 18.5054"
-                                stroke="#A1A5B3"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                              <path
-                                d="M15.8926 15C17.2166 14.999 18.5213 15.3171 19.6962 15.9273C20.8712 16.5375 21.8819 17.4218 22.6426 18.5054"
-                                stroke="#A1A5B3"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                            Số học sinh đã đăng ký
-                            <span>618</span>
+                            <MdOutlineFormatListNumbered />
+                            Số trang
+                            <span>154</span>
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            <svg
-                              width={18}
-                              height={18}
-                              viewBox="0 0 18 18"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M7.5 7.5H13.5"
-                                stroke="#A1A5B3"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                              <path
-                                d="M7.5 10.5H13.5"
-                                stroke="#A1A5B3"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                              <path
-                                d="M16.5 0.75H1.5C1.08579 0.75 0.75 1.08579 0.75 1.5V16.5C0.75 16.9142 1.08579 17.25 1.5 17.25H16.5C16.9142 17.25 17.25 16.9142 17.25 16.5V1.5C17.25 1.08579 16.9142 0.75 16.5 0.75Z"
-                                stroke="#A1A5B3"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                              <path
-                                d="M4.5 0.75V17.25"
-                                stroke="#A1A5B3"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                            Ngôn ngữ
-                            <span>Tiếng Việt</span>
+                            <SiMicrosofttranslator color="gray" />
+                            Dịch giả
+                            <span>First News</span>
                           </a>
                         </li>
                       </ul>
@@ -1702,32 +1590,28 @@ const BookInfo = () => {
                   <div className="course-right-sidebar-row">
                     <div className="course-purchase-btn">
                       <a className="button button--lg" href="#">
-                        Add to Cart
+                        Thêm vào giỏ hàng
                       </a>
                       <a
                         className="button button--lg button-p-s"
                         href="/parents/payment"
                       >
-                        Buy now
+                        Mua ngay
                       </a>
                       <div className="add-to-wishlist-wrap">
                         <a className="add-to-wishlist" href="#">
                           Add to wishlist
                         </a>
-                        <a className="add-to-wishlist" href="gift-course.html">
+                        <a className="add-to-wishlist" href="#">
                           Gift Course
                         </a>
                       </div>
-                      <p>
-                        <span>Note:</span> all course have 30-days money-back
-                        guarantee
-                      </p>
                     </div>
                   </div>
                   <div className="course-right-sidebar-row">
                     <div className="course-includes-wrap">
                       <h4 className="course-sidebar-title">
-                        This course includes:
+                        Cuốn sách bao gồm
                       </h4>
                       <ul>
                         <li>
@@ -1753,7 +1637,7 @@ const BookInfo = () => {
                                 strokeLinejoin="round"
                               />
                             </svg>
-                            Lifetime access
+                            Truy cập trọn đời
                           </a>
                         </li>
                         <li>
@@ -1787,7 +1671,7 @@ const BookInfo = () => {
                                 strokeLinejoin="round"
                               />
                             </svg>
-                            30-days money-back guarantee
+                            Bảo đảm hoàn tiền trong vòng 3 ngày nếu có vấn đề
                           </a>
                         </li>
                         <li>
@@ -1828,57 +1712,10 @@ const BookInfo = () => {
                                 strokeLinejoin="round"
                               />
                             </svg>
-                            Free exercises file &amp; downloadable resources
+                            Tài nguyên tải về miễn phí
                           </a>
                         </li>
-                        <li>
-                          <a href="#">
-                            <svg
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M5.25 5.25V10.4153C5.25 14.1372 8.227 17.2222 11.9488 17.2498C12.8395 17.2566 13.7228 17.087 14.5476 16.7508C15.3725 16.4146 16.1226 15.9185 16.7548 15.291C17.3871 14.6636 17.8889 13.9172 18.2313 13.0949C18.5737 12.2727 18.75 11.3907 18.75 10.5V5.25C18.75 5.05109 18.671 4.86032 18.5303 4.71967C18.3897 4.57902 18.1989 4.5 18 4.5H6C5.80109 4.5 5.61032 4.57902 5.46967 4.71967C5.32902 4.86032 5.25 5.05109 5.25 5.25Z"
-                                stroke="#FF6636"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                              <path
-                                d="M9 21H15"
-                                stroke="#FF6636"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                              <path
-                                d="M12 17.25V21"
-                                stroke="#FF6636"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                              <path
-                                d="M18.5825 12H19.4998C20.2955 12 21.0585 11.6839 21.6211 11.1213C22.1837 10.5587 22.4998 9.79565 22.4998 9V7.5C22.4998 7.30109 22.4208 7.11032 22.2801 6.96967C22.1395 6.82902 21.9487 6.75 21.7498 6.75H18.7498"
-                                stroke="#FF6636"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                              <path
-                                d="M5.43432 12H4.48828C3.69263 12 2.92957 11.6839 2.36696 11.1213C1.80435 10.5587 1.48828 9.79565 1.48828 9V7.5C1.48828 7.30109 1.5673 7.11032 1.70795 6.96967C1.8486 6.82902 2.03937 6.75 2.23828 6.75H5.23828"
-                                stroke="#FF6636"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                            Shareable certificate of completion
-                          </a>
-                        </li>
+
                         <li>
                           <a href="#">
                             <svg
@@ -1903,7 +1740,8 @@ const BookInfo = () => {
                                 strokeLinejoin="round"
                               />
                             </svg>
-                            Access on mobile , tablet and TV
+                            Truy cập trên điện thoại di động, máy tính bảng, máy
+                            đọc sách, laptop,...
                           </a>
                         </li>
                         <li>
@@ -1958,41 +1796,7 @@ const BookInfo = () => {
                                 strokeLinejoin="round"
                               />
                             </svg>
-                            English subtitles
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <svg
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M3 16.5L12 21.75L21 16.5"
-                                stroke="#FF6636"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                              <path
-                                d="M3 12L12 17.25L21 12"
-                                stroke="#FF6636"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                              <path
-                                d="M3 7.5L12 12.75L21 7.5L12 2.25L3 7.5Z"
-                                stroke="#FF6636"
-                                strokeWidth="1.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                            100% online course
+                            Bản dịch Tiếng Việt
                           </a>
                         </li>
                       </ul>
@@ -2001,7 +1805,7 @@ const BookInfo = () => {
                   <div className="course-right-sidebar-row">
                     <div className="course-share-wrap">
                       <h4 className="course-sidebar-title">
-                        Share this course:
+                        Chia sẻ cuốn sách này:
                       </h4>
                       <div className="social-icon">
                         <ul>

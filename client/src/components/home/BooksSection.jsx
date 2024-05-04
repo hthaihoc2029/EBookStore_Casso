@@ -1,89 +1,9 @@
 import React from "react";
 import bookThumbnail from "../../assets/bookThumb.png";
 import { useNavigate } from "react-router-dom";
-const TutorSection = () => {
+const BooksSection = () => {
   let navigate = useNavigate();
-  const instructors = [
-    {
-      name: "Phạm Thế Hiểu",
-      role: "Luyện thi Đại học",
-      imgSrc:
-        "https://media.licdn.com/dms/image/D5603AQHrkBt0FZTR3w/profile-displayphoto-shrink_800_800/0/1683948337409?e=2147483647&v=beta&t=LnHIOp5P29MrmdCMgKqBHf5mURxlBoGfa232zy5bn7I",
-      rating: "5.0",
-      students: "265.7K",
-    },
-    {
-      name: "Đặng Quang Vinh",
-      role: "Báo bài Tiểu học",
-      imgSrc:
-        "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/276141419_1609475789409616_3802600220044426159_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=7cJv8HHsjMoQ7kNvgEiVtX_&_nc_ht=scontent-hkg4-1.xx&oh=00_AfBqIfYK_rfbKmEgScozyuAdxPt6MNYWGryOSMTd8tfu0Q&oe=66381123",
-      rating: "5.0",
-      students: "265.7K",
-    },
-    {
-      name: "Nguyễn Phan Hoàng Phúc",
-      role: "Văn Anh THCS",
-      imgSrc:
-        "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/355167881_1385377535340453_9167848635188842104_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=qec81lo3-AgQ7kNvgGwtX95&_nc_ht=scontent-hkg4-1.xx&oh=00_AfACeDETs_kwPkFzRPayl49UtY8Z4_1qlU9FUjPOzy5dcA&oe=6638353B",
-      rating: "5.0",
-      students: "265.7K",
-    },
-    {
-      name: "Huỳnh Thái Học",
-      role: "Toán Lý Hóa THPT",
-      imgSrc:
-        "https://scontent-hkg1-2.xx.fbcdn.net/v/t1.6435-9/129964326_103233228328909_2416127940009701180_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=g9eMhlF2qiMAb5SIxB6&_nc_oc=AdiiJYCa6z7KI6-DynVYg_RkDJikedIw9tbcTw0T9pN1Rsckq6KBTofndw-KxtenDcBxnuCMA2tbeQy_DriCqfXx&_nc_ht=scontent-hkg1-2.xx&oh=00_AfAHalTPiZ3f0OLWg5TvWmvzVhkA2s-li-j7d5i-IAACpA&oe=66501176",
-      rating: "5.0",
-      students: "265.7K",
-    },
-    {
-      name: "Nguyễn Châu Long",
-      role: "ĐGNL ĐHQG TP.HCM",
-      imgSrc:
-        "https://scontent-hkg4-2.xx.fbcdn.net/v/t1.6435-9/199515876_1147737032374233_1592432419717420768_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=nb6R67GLKxsAb7MPjtj&_nc_ht=scontent-hkg4-2.xx&oh=00_AfAwg4UB9xPgJJsSwjmTaDcWncXWMoXRZAl59wKmRcmfjQ&oe=66500640",
-      rating: "5.0",
-      students: "265.7K",
-    },
-    {
-      name: "Phạm Phú Khang",
-      role: "Văn Sử Địa THPT",
-      imgSrc:
-        "https://scontent-hkg1-2.xx.fbcdn.net/v/t1.6435-9/56420942_447009999372769_4934487368028651520_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lp9ZqIC3BhYQ7kNvgHxT-RO&_nc_ht=scontent-hkg1-2.xx&oh=00_AfATSVfK6Ctf34sha62ijJmIvTPDfFUGgDVikxH6Cs8eiw&oe=6659A053",
-      rating: "5.0",
-      students: "265.7K",
-    },
-    {
-      name: "Hoàng Đức Nguyên",
-      role: "Ôn HSG THCS",
-      imgSrc:
-        "https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/277354963_678836309986422_7620062949241528348_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KE8a6gHmr04Q7kNvgERbTjU&_nc_ht=scontent-hkg1-2.xx&oh=00_AfD-fv8-hzKmd-On4Lsm4AccqCs1tJlq7psMNrtJtlZu7Q&oe=66380607",
-      rating: "5.0",
-      students: "265.7K",
-    },
-    {
-      name: "Thái Bảo Long",
-      role: "KHTN THCS",
-      imgSrc: "https://i.postimg.cc/dVmDgvCD/image.png",
-      rating: "5.0",
-      students: "265.7K",
-    },
-    {
-      name: "Lê Anh Huy",
-      role: "IELTS TOEIC",
-      imgSrc:
-        "https://img.freepik.com/premium-vector/young-smiling-man-avatar-man-with-brown-beard-mustache-hair-wearing-yellow-sweater-sweatshirt-3d-vector-people-character-illustration-cartoon-minimal-style_365941-860.jpg",
-      rating: "5.0",
-      students: "265.7K",
-    },
-    {
-      name: "Lã Nguyễn Gia Hy",
-      role: "Luyện thi HSGQG",
-      imgSrc:
-        "https://img.freepik.com/premium-vector/young-smiling-man-avatar-man-with-brown-beard-mustache-hair-wearing-yellow-sweater-sweatshirt-3d-vector-people-character-illustration-cartoon-minimal-style_365941-860.jpg",
-      rating: "5.0",
-      students: "265.7K",
-    },
-  ];
+  const books = [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}];
 
   return (
     <>
@@ -94,9 +14,9 @@ const TutorSection = () => {
               <h2>Tựa sách hàng đầu của chúng tôi</h2>
             </div>
             <div className="d-flex justify-content-center course-item-5-grid">
-              {instructors &&
-                instructors.length > 0 &&
-                instructors.map((item, index) => {
+              {books &&
+                books.length > 0 &&
+                books.map((item, index) => {
                   return (
                     <>
                       <div className="course-item-5">
@@ -141,10 +61,9 @@ const TutorSection = () => {
             </div>
             <div className="icon-bottom-btn mt-4">
               <p>
-                Hãy lựa chọn giảng viên phù hợp để con bạn có một hành trình học
-                tập thành công!
-                <a href="parents/tutors">
-                  Tìm kiếm gia sư ngay!
+                Khám phá tri thức mới mỗi ngày với sách điện tử của chúng tôi!
+                <a onClick={() => navigate("/book-info")}>
+                  <span style={{ color: "#FF6636" }}>Tìm kiếm ngay!</span>
                   <svg
                     width={24}
                     height={24}
@@ -177,4 +96,4 @@ const TutorSection = () => {
   );
 };
 
-export default TutorSection;
+export default BooksSection;
