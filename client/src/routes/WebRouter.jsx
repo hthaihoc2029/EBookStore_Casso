@@ -7,6 +7,7 @@ import ContactPage from "../pages/ContactPage";
 import PaymentPage from "../pages/PaymentPage";
 import HistoryPage from "../pages/HistoryPage";
 import EbookPage from "../pages/EbookPage";
+import ConfirmPaymentPage from "../pages/ConfirmPaymentPage";
 
 function WebRouter() {
   return (
@@ -17,6 +18,7 @@ function WebRouter() {
         <Route path="/book-info" element={<EbookPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/payment" element={<PaymentPage />} />
+        <Route path="/payment/confirm" element={<ConfirmPaymentPage />} />
         <Route path="/history" element={<HistoryPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />

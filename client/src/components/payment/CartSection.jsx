@@ -10,15 +10,6 @@ const CartSection = () => {
   let dispatch = useDispatch();
   let isAddCart = useSelector((state) => state.cart.isAddCart);
   console.log(isAddCart);
-  const handleClickPayment = async () => {
-    let data = await postPayment();
-    console.log("====================================");
-    console.log(data);
-    console.log("====================================");
-    if (data && data.EC === 0) {
-      window.location.href = data.data;
-    }
-  };
 
   const info = {
     number: 1,
@@ -165,9 +156,8 @@ const CartSection = () => {
                   <div className="amaunt-confirm-button">
                     <a
                       className="button button--lg button-i--r d-block"
-                      href="#"
                       onClick={() => {
-                        handleClickPayment();
+                        navigate("confirm");
                       }}
                     >
                       Xác nhận thanh toán
