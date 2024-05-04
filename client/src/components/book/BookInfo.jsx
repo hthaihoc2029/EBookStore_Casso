@@ -1603,7 +1603,10 @@ const BookInfo = () => {
                     </a>
                     <a
                       className="button button--lg button-p-s"
-                      href="/parents/payment"
+                      onClick={() => {
+                        dispatch(addCart());
+                        navigate("/payment");
+                      }}
                     >
                       Mua ngay
                     </a>

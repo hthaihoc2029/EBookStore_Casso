@@ -87,9 +87,9 @@ const Header = (props) => {
             </ul>
           </div>
           <div className="header-right">
-            <span style={{ fontSize: 15, color: "#8C94A3" }}>
+            {/* <span style={{ fontSize: 15, color: "#8C94A3" }}>
               Trang dành cho Phụ huynh/Học sinh
-            </span>
+            </span> */}
           </div>
           <div className="menu-bar">
             <svg
