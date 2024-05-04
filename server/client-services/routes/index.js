@@ -3,7 +3,7 @@ const {
   SignUp,
   PaymentForPost,
   GetTutor,
-} = require("../controllers/parentController");
+} = require("../controllers/paymentController");
 const router = require("express").Router();
 router.post("/login", Login);
 router.post("/signup", SignUp);
