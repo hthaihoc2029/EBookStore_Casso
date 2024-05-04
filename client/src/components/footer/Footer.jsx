@@ -14,8 +14,8 @@ const Footer = () => {
                     <img src={Logo} alt="" />
                   </div>
                   <p>
-                    Khu phố 6, phường Linh Trung, Thành phố Thủ Đức, Thành phố
-                    Hồ Chí Minh
+                    Phòng I.102D, Khu Công nghệ Phần mềm ĐHQG – HCM, khu phố 6,
+                    phường Linh Trung, TP Thủ Đức
                   </p>
                   <div className="social-icon footer-social">
                     <ul>
@@ -276,7 +276,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a href="#">
-                          Khóa học
+                          EBooks
                           <svg
                             width={16}
                             height={16}
@@ -303,7 +303,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a href="#">
-                          Liên hệ đăng ký
+                          Liên hệ
                           <svg
                             width={16}
                             height={16}
@@ -330,7 +330,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a href="#">
-                          Gia sư
+                          Thanh toán
                           <svg
                             width={16}
                             height={16}
@@ -487,7 +487,10 @@ const Footer = () => {
               <div className="col-sm-6  d-flex align-items-center">
                 <div className="copywright-text">
                   <p>
-                    © 2024 - BKtutor. Designed by <a href="#">Nhóm 2 - TMĐT</a>{" "}
+                    © 2024 - CassoBook. Designed by{" "}
+                    <a href="https://www.linkedin.com/in/hchuyh">
+                      Học Huỳnh CSE
+                    </a>{" "}
                     . All rights reserved
                   </p>
                 </div>

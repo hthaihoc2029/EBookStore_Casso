@@ -1,5 +1,8 @@
 import React from "react";
+import bookThumbnail from "../../assets/bookThumb.png";
+import { useNavigate } from "react-router-dom";
 const TutorSection = () => {
+  let navigate = useNavigate();
   const instructors = [
     {
       name: "Phạm Thế Hiểu",
@@ -99,10 +102,12 @@ const TutorSection = () => {
                       <div className="course-item-5">
                         <div className="course-item-5-card">
                           <a
-                            href="/parents/tutor-profile"
+                            onClick={() => {
+                              navigate("/book-info");
+                            }}
                             className="course-item-5-card-img team-thumb"
                           >
-                            <img src={item.imgSrc} alt="" />
+                            <img src={bookThumbnail} alt="" />
                           </a>
                           <div className="course-item-data">
                             <h5>Bí Mật Của May Mắn</h5>

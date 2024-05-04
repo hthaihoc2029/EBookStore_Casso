@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../header/Header";
 const BookInfo = () => {
   const info = {
@@ -79,6 +79,9 @@ const BookInfo = () => {
       <p key={index}>{line}</p>
     )
   );
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Header />
