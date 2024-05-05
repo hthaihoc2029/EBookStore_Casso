@@ -9,7 +9,7 @@ const clientAPIRouter = require("./client-services/routes");
 const app = express();
 const port = process.env.PORT || 8080;
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://e-book-store-casso-client.vercel.app");
+  res.setHeader("Access-Control-Allow-Origin", "*");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
