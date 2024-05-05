@@ -16,8 +16,8 @@ const postPaymentService = async () => {
     currency: "VND",
     description: "Thanh toan Ebook",
     orderCode: generateRandomOrder(),
-    cancelUrl: "http://localhost:5173/payment",
-    returnUrl: "http://localhost:5173/history",
+    cancelUrl: `${process.env.FRONTEND_URL}/payment`,
+    returnUrl: `${process.env.FRONTEND_URL}//history`,
   });
   const url = paymentLink.checkoutUrl;
   console.log(url);
