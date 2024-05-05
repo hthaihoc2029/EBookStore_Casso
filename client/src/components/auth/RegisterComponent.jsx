@@ -2,8 +2,10 @@ import React from "react";
 import Logo from "../../assets/LOGO.svg";
 import EyeIcon from "../../assets/images/svg-icon/eye-open.svg";
 import Banner from "../../assets/images/banner/rocket.png";
+import { useNavigate } from "react-router-dom";
 
 const RegisterComponent = () => {
+  let navigate = useNavigate();
   return (
     <>
       <>
@@ -12,7 +14,7 @@ const RegisterComponent = () => {
           <div className="container">
             <div className="header-bottom header-four">
               <div className="main-logo">
-                <a href="/parents">
+                <a onClick={() => navigate("/")}>
                   <img src={Logo} alt="brand-logo" />
                 </a>
               </div>
@@ -21,7 +23,7 @@ const RegisterComponent = () => {
                   <p>Đã có tài khoản ?</p>
                   <a
                     className="button button--md button-p-s"
-                    href="/parents/login"
+                    onClick={() => navigate("/login")}
                   >
                     Đăng nhập
                   </a>

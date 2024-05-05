@@ -2,15 +2,17 @@ import React from "react";
 import Logo from "../../assets/LOGO.svg";
 import EyeIcon from "../../assets/images/svg-icon/eye-open.svg";
 import Banner from "../../assets/images/banner/computer-desk.png";
+import { useNavigate } from "react-router-dom";
 
 const LoginComponent = () => {
+  let navigate = useNavigate();
   return (
     <>
       <header className="header-section header-four">
         <div className="container">
           <div className="header-bottom header-four">
             <div className="main-logo">
-              <a href="/parents">
+              <a onClick={() => navigate("/")}>
                 <img src={Logo} alt="brand-logo" />
               </a>
             </div>
@@ -19,7 +21,7 @@ const LoginComponent = () => {
                 <p>Chưa có tài khoản?</p>
                 <a
                   className="button button--md button-p-s"
-                  href="/parents/register"
+                  onClick={() => navigate("/register")}
                 >
                   Tạo tài khoản
                 </a>
