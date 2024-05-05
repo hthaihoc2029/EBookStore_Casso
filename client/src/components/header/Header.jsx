@@ -14,6 +14,7 @@ const Header = (props) => {
   const notificationRef = useRef(null);
   let isAddCart = useSelector((state) => state.cart.isAddCart);
   const { activeLink } = props;
+
   let navigate = useNavigate();
   useEffect(() => {
     function handleClickOutside(event) {
