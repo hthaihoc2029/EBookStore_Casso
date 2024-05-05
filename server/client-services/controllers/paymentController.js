@@ -1,5 +1,4 @@
 const { postPaymentService } = require("../services/index.js");
-const jwt = require("jsonwebtoken");
 
 const postPaymentController = async (req, res) => {
   const result = await postPaymentService();

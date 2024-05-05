@@ -83,6 +83,7 @@ const Header = (props) => {
               </li>
               <li>
                 <a
+                  className={activeLink === "history" ? "active" : ""}
                   onClick={() => {
                     navigate("/history");
                   }}
@@ -214,7 +215,6 @@ const Header = (props) => {
                           left: "15px",
                         }}
                         className="numbert-cart"
-                        onMouseOver="this.style.color='red'"
                       >
                         <Bs1CircleFill />
                       </div>

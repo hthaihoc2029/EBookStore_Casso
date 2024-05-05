@@ -1,5 +1,6 @@
 const db = require("../configs/database.js");
 const PAYOS = require("@payos/node");
+const generateRandomOrder = require("../utils/randomOrder.js");
 
 const postPaymentService = async () => {
   const payos = new PAYOS(
@@ -14,11 +15,12 @@ const postPaymentService = async () => {
     amount: 10000,
     currency: "VND",
     description: "Thanh toan Ebook",
-    orderCode: 15,
+    orderCode: generateRandomOrder(),
     cancelUrl: "http://localhost:5173/payment",
     returnUrl: "http://localhost:5173/history",
   });
   const url = paymentLink.checkoutUrl;
+  console.log(url);
   return url;
 };
 
