@@ -4,7 +4,7 @@ const postLogin = (username, password) => {};
 const postRegister = (username, password, CCCD) => {};
 
 const postPayment = () => {
-  return instance.post(process.env.BACKEND_URL+"api/client/payment");
+  return instance.post("https://e-book-store-casso-server.vercel.app/api/client/payment");
 };
 
 export { postPayment, postLogin, postRegister };
