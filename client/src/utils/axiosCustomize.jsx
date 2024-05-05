@@ -12,7 +12,7 @@ NProgress.configure({
 });
 
 const instance = axios.create({
-  baseURL: "http://localhost:8080/",
+  baseURL: process.env.BACKEND_URL,
 });
 
 // Add a request interceptor
