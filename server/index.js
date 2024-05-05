@@ -22,6 +22,9 @@ app.use(cookieParser());
 
 // Every route should start with /api
 app.use("/api/client", clientAPIRouter);
+app.get("/", (req, res) => {
+  res.send("server running...");
+});
 
 // Error handlers
 app.use((err, req, res, next) => {
