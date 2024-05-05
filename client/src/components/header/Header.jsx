@@ -64,14 +64,7 @@ const Header = (props) => {
                   EBook
                 </a>
               </li>
-              <li>
-                <a
-                  className={activeLink === "contact" ? "active" : ""}
-                  onClick={() => navigate("/contact")}
-                >
-                  Liên hệ hỗ trợ
-                </a>
-              </li>
+
               <li>
                 <a
                   className={activeLink === "payment" ? "active" : ""}
@@ -79,7 +72,7 @@ const Header = (props) => {
                     navigate("/payment");
                   }}
                 >
-                  Thanh toán
+                  Giỏ hàng &#38; Thanh toán
                 </a>
               </li>
               <li>
@@ -90,6 +83,14 @@ const Header = (props) => {
                   }}
                 >
                   Lịch sử
+                </a>
+              </li>
+              <li>
+                <a
+                  className={activeLink === "contact" ? "active" : ""}
+                  onClick={() => navigate("/contact")}
+                >
+                  Liên hệ hỗ trợ
                 </a>
               </li>
             </ul>
