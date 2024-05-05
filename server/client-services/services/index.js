@@ -17,7 +17,7 @@ const postPaymentService = async () => {
     description: "Thanh toan Ebook",
     orderCode: generateRandomOrder(),
     cancelUrl: `${process.env.FRONTEND_URL}/payment`,
-    returnUrl: `${process.env.FRONTEND_URL}//history`,
+    returnUrl: `${process.env.FRONTEND_URL}/history`,
   });
   const url = paymentLink.checkoutUrl;
   console.log(url);
