@@ -17,8 +17,8 @@ const ConfirmPayment = () => {
   };
 
   const handleClickPayment = async () => {
-    const randomOrderCode = generateRandomId();
-    dispatch(updateOrderCode(randomOrderCode));
+    // const randomOrderCode = generateRandomId();
+    // dispatch(updateOrderCode(randomOrderCode));
     let data = await postPayment();
     console.log("====================================");
     console.log(data);
